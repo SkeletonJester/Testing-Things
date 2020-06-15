@@ -78,7 +78,7 @@ Hard straight bullet: fragment-8 ",
        "碎裂弹": {
 	   "type": "MissileBulletType"
 	   "hitEffect":"commandSend",
-	   "hitSound":"蜂王碎裂"
+	   "hitSound":"name10"
 	   "speed": 4
      "damage": 125
 	 "lifetime": 240,
