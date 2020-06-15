@@ -10,7 +10,7 @@ Hard straight bullet: fragment-8 ",
 	     "size":4,
 		 "heatColor":"turretHeat",
 		 "maxAmmo":3,
-		 "shootSound":"蜂王"
+		 "shootSound":"name9"
 		   "targetAir":true,
      "targetGround":true,
 	 "booster":false
