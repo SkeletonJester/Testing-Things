@@ -7,7 +7,7 @@
 	"buildCostMultiplier": 1,
 	"heatColor":"turretHeat",
 	"shootEffect":"shootBig",
-	"shootSound":"湮灭",
+	"shootSound":"name8",
 	"ammoPerShot": 1,
 	"range": 300,
 	"reload": 275,
