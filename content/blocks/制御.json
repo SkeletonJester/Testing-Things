@@ -6,7 +6,7 @@
 	     "size":3,
 		   "targetAir":true,
      "targetGround":true,
-	 "shootSound":"制御"
+	 "shootSound":"name5"
      "rotatespeed":4,
 	 "range":240,
 	 "recoil": 4,
