@@ -414,7 +414,7 @@ pointingLaserBulletType.despawnEffect = Fx.plasticExplosion;
 // 充能声音
 // pointingLaserTurret.chargeSound = "s.ogg";
 loadSound("name1.ogg", s => pointingLaserTurret.chargeSound = s);
-loadSound("光棱.ogg", s => pointingLaserTurret.shootSound = s);
+loadSound("name2.ogg", s => pointingLaserTurret.shootSound = s);
 // 充能时间 60 = 1s
 pointingLaserTurret.chargeTime = 60;
 // 丢失目标的缓冲时间，不能大于 chargeTime， 60 = 1s
