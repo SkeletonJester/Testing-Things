@@ -1,0 +1,21 @@
+{
+	"name": "Frenzied mecha Pad",
+	"description": "It is allowed to replace the current mecha with a low-level fusion gun, stand on it and click to switch",
+	"type": "MechPad",
+	"mech": "Frenzied",
+	"size": 3,
+	"buildTime": 350,
+	"consumes": {
+		"power": 0.5
+	},
+	"category": "upgrade",
+	"research": "omega-mech-pad",
+	"requirements":[
+        { "item": "lead", "amount": 500 },
+		{ "item": "titanium", "amount": 300 },
+        { "item": "silicon", "amount": 350 },
+		{ "item": "铁板", "amount": 100 },
+		{ "item": "钛合金", "amount": 100 },
+		{ "item": "啸动合金", "amount": 100 },
+    ],
+}

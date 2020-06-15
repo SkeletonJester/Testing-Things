@@ -1,0 +1,8 @@
+{
+"type":"material",
+"name":"Solid radiation",
+"radioactivity":2.5
+"flammability":0.5
+"description":"An unstable substance with certain radioactivity",
+"color":"CD950C"
+}

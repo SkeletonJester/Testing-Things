@@ -1,0 +1,26 @@
+{
+	"name": "Parallel world - AI crisis plain - difficulty: D",
+	"description": "Mechanical crisis:
+The enemy mistakenly implanted the AI chip into the computer terminal, causing the computer to break through all the Internet terminals from the inside.The AI successfully evolved into a device that wants to destroy the world. Fortunately, they did not have too many weapons. They kept the first area to ensure the development of our technology!!",
+    "conditionWave": 41,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 200},
+		{"item": "石英", "amount": 200},
+		{"item": "lead", "amount": 200},
+
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "前线基地", 
+    		"wave": 100
+			}
+			{
+    		"type": "Unlock",
+    		"block": "duo"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium""钴""thorium""铝"]
+}

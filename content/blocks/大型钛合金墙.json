@@ -1,0 +1,15 @@
+{
+	"name": "Large titanium alloy wall",
+	"description": "High density walls are not as solid as wave walls, but they use very few materials. High density makes it stable to build larger walls",
+	"type": "Wall",
+	"health":3200 ,
+	"size":2 ,
+	"buildCostMultiplier":40
+	"requirements": [
+		{ "item": "钛合金", "amount":5 }
+		{ "item": "固体放射物", "amount":5 }
+		
+	],
+	"category": "defense",
+	"research": "钛合金墙"
+}

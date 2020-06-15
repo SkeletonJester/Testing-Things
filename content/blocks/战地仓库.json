@@ -1,0 +1,22 @@
+{
+	"name": "Battlefield warehouse",
+	"description": "Used to store more items, but extremely vulnerable",
+	"type": "Vault",
+	"itemCapacity":50000 ,
+	"hasItems": true,
+	"health": 200,
+	"size": 8,
+	"requirements": [
+	    { "item": "copper", "amount": 1500 } 
+		{ "item": "lead", "amount": 1500 } 
+		{ "item": "titanium", "amount": 1000 }
+		{ "item": "石英", "amount": 1000 }
+		{ "item": "thorium", "amount": 800 }
+		{ "item": "铁", "amount": 500 }
+		{ "item": "金", "amount": 300 }
+		{ "item": "铝板", "amount": 300 }
+		
+	],
+	"category": "effect",
+	"research": "超大型仓库"
+}

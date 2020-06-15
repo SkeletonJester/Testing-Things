@@ -1,0 +1,8 @@
+{
+"type":"material",
+"name":"Diamond mixture",
+"hardness":5,
+"flammability":1.5945
+"description":"The rudiment of diamond can be used to process precious minerals",
+"color":"008B8B"
+}

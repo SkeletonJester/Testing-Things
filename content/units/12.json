@@ -1,0 +1,32 @@
+{
+	"type": "GroundUnit",
+	"name": "12",
+	"description": "1200",
+	"speed": 0.05,
+	"flying": false,
+	"health": 100000
+	"engineOffset": 5.5
+	"mass":40
+	"weapon": {
+	   "name": "u",
+     "ignoreRotation": true,
+     "length": 10,
+		 "reload": 30,
+    	"shots": 1,
+		"alternate": false,
+		"retreatPercent":1.0
+		 "bullet":{
+		    "type":"FlakBulletType"
+		"shootSound":"artillery"
+			"speed": 4,
+			"damage": 90000,
+			"bulletWidth": 1,
+			"bulletHeight": 1,
+			"shootEffect": "blastExplosion",
+			"despawnEffect": "flakExplosionBig",
+            "killShooter": false,
+			"lifetime":5,
+            "instantDisappear": false,
+             }
+	}
+}

@@ -1,0 +1,8 @@
+
+{
+"type":"resource",
+"name":"Radioactive sand",
+"radioactivity":1.2
+"description":"经过辐射后的沙子，未经过处理会很危险",
+"color":"FFC125"
+}

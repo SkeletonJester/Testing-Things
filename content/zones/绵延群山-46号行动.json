@@ -1,0 +1,29 @@
+{
+	"name": "Operation 46, the rolling mountains",
+	"description": "Commander, our front line has been attacked by stealth. They have very strong armored forces. There is no heavy guard there. All the friendly scientists there have evacuated. Please go to the area quickly. We have transformed the area. Come on!",
+    "conditionWave": 60,
+	"launchPeriod": 12,//发射波次间隔
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 500},
+		{"item": "石英", "amount": 300},
+		{"item": "lead", "amount": 300},
+		{"item": "graphite", "amount": 300},
+		{"item": "silicon", "amount": 300},
+		{"item": "metaglass", "amount": 300},
+		{"item": "titanium", "amount": 300},
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "八号地区", 
+    		"wave": 60
+			}
+			{
+    		"type": "Unlock",
+    		"block": "皇后"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium""钴""钻石混合物""thorium"]
+}

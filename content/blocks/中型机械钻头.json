@@ -1,0 +1,24 @@
+{
+	"name": "Medium mechanical bit",
+	"description": "In order to improve our mining minerals in the early stage, the medium-sized mechanical bit can let you mine titanium",
+	"type": "Drill",
+	"size":3 ,
+	"health":50 ,
+	"tier": 3,
+	"drillTime":550 ,
+		"has Shadow":true
+	"consumes":{
+		 "liquid": {
+			"liquid": "water", "amount": 0.07,
+			"booster":true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{"item": "copper", "amount":100 }
+		{"item": "lead", "amount":80 }
+		{"item": "metaglass", "amount":30 }
+	],
+	"category": "production",
+	"research":"mechanical-drill"
+}

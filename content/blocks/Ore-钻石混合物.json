@@ -1,0 +1,6 @@
+{
+	"type": "OreBlock",
+	"itemDrop": "钻石混合物",
+	"playerUnmineable": false,
+	"variants": 3
+}

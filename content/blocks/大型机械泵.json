@@ -1,0 +1,20 @@
+{
+    "type": "Pump",
+    "name": "Large mechanical pump",
+    "description": "Faster than mechanical pumps, no need to consume electricity",
+    "size":2 ,
+    "health": 80,
+	"liquidCapacity":30 ,
+    "hasLiquids": true,
+    "pumpAmount": 0.65,
+    "requirements": [
+		{"item": "copper", "amount":100 },
+		{"item": "lead", "amount": 100},
+		{"item": "metaglass", "amount":45 },
+		{"item": "石英", "amount":80 },
+
+		
+	],
+	"category": "liquid",
+	"research": "mechanical-pump"
+}

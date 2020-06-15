@@ -1,0 +1,16 @@
+{
+	"type": "DeflectorWall",
+	"name": "Large woven silicon wall",
+	"description": "It's not as strong as a titanium wall, but it can deflect powerful ammunition and occupy multiple squares",
+	"health":7250,
+	"size":2,
+	"hitTime":20,
+	"maxDamageDeflect":400,
+	"requirements": [
+	    { "item": "相织硅","amount": 100 },
+		{ "item": "铝板", "amount":40 }
+	],
+	"category": "defense",
+	"research": "相织硅墙"
+}
+

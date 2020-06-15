@@ -1,0 +1,8 @@
+{
+"type":"material",
+"name":"Thorium battery",
+"radioactivity":1.4
+"flammability":0.3
+"description":"Batteries formed by compressing thorium",
+"color":"#FF1493"
+}

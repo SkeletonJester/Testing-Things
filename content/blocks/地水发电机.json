@@ -1,0 +1,24 @@
+{
+	"type": "ThermalGenerator",
+	"name": "Hydro generator",
+	"description": "Using circulating water to generate electricity is suitable for overcoming difficulties in the early stage",
+	"size": 2,
+	"health": 180,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 80,
+	"liquidCapacity": 60,
+    "generateEffect":"reactorsmoke"
+	"attribute":"water"
+	"powerProduction": 1.5
+	"requirements": [
+		{ "item": "石英", "amount": 20 },
+		{ "item": "lead", "amount": 20 },
+		{ "item": "graphite", "amount": 20 },
+		{ "item": "silicon", "amount": 8 },
+		{ "item": "铁", "amount": 5 },
+
+	],
+	"category": "power",
+	"research": "thermal-generator"
+}

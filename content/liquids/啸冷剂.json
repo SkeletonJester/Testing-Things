@@ -1,0 +1,11 @@
+{
+	"name": "Super freezing liquid",
+	"type": "liquids",
+	"description": "A new kind of freezing liquid",
+	"color": 18A044,
+	"flammability": 0,
+	"temperature": 0.0,
+	"heatCapacity": 2.5,
+	"viscosity": 1.5,
+	"explosiveness": 0
+}

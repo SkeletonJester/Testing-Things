@@ -1,0 +1,39 @@
+{
+	"name": "Grounding grid",
+	"description": "A position used to protect precious items. It has great absorption shield and long recovery time",
+	"type": "ForceProjector",
+	"health":1000 ,
+	"buildCostMultiplier":5
+	"size":3,
+	"radius":50,
+	"phaseUseTime": 200
+	"phaseRadiusBoost": 20
+	"basePowerDraw": 10.0
+	"breakage":150000,
+	"cooldownNormal":5.0,
+	"cooldownBrokenBase":3.5,
+
+	"consumes":{
+		"power":40.0 ,
+		"items":{
+			"items":[
+				{"item":"电池","amount":5}
+			],
+			"booster":true
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 1000 }
+		{ "item": "thorium", "amount": 1000 }
+		{ "item": "钍电池", "amount": 700}
+		{ "item": "电池", "amount": 700}
+		{ "item": "铁板", "amount": 100}
+		{ "item": "相织硅", "amount": 300}
+		{ "item": "啸动合金", "amount": 200}
+
+		
+		
+	],
+	"category": "effect",
+	"research":"立场系统核心"
+}

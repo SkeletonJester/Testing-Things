@@ -1,0 +1,15 @@
+{
+	"name": "钛合金墙",
+	"description": "密度极高的墙，没有像波动墙那样坚固，但是它使用的材料非常少，高密度使它可以稳定的建造更大型的墙",
+	"type": "Wall",
+	"health":800 ,
+	"size":1 ,
+	"buildCostMultiplier":80
+	"requirements": [
+		{ "item": "钛合金", "amount":1 }
+		{ "item": "固体放射物", "amount":1 }
+		
+	],
+	"category": "defense",
+	"research": "钴墙"
+}

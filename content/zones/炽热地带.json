@@ -1,0 +1,26 @@
+{
+	"name": "Hot zone",
+	"description": "Commander, we have withdrawn from the danger zone, where the minerals seem to be very dense.",
+    "conditionWave": 7,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 500},
+		{"item": "石英", "amount": 300},
+		{"item": "lead", "amount": 300},
+		{"item": "graphite", "amount": 250},
+		{"item": "silicon", "amount": 150},
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "命运挽歌", 
+    		"wave": 80
+			}
+			{
+    		"type": "Unlock",
+    		"block": "屏障"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium""钴""钻石混合物""thorium""铝"]
+}

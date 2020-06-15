@@ -1,0 +1,25 @@
+{
+	"type": "BurnerGenerator",
+	"name": "Centrifugal power plant",
+	"description": "Large thermal power plants, using thorium to increase power generation",
+	"size": 3,
+	"health": 145,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 240,
+	"itemCapacity":3,
+	"powerProduction": 50
+	"consumes": {
+"liquid": {"liquid":"water","amount":0.1,} 
+		}
+	"requirements": [
+		{ "item": "lead", "amount":250 },
+		{ "item": "copper", "amount": 250 },
+		{ "item": "thorium", "amount": 200 },
+		{ "item": "金", "amount": 80 },
+		{ "item": "相织硅", "amount": 50 },
+		{ "item": "铝板", "amount": 30 },
+	],
+	"category": "power",
+	"research": "汽轮发电机"
+}

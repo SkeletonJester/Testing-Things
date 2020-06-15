@@ -1,0 +1,13 @@
+{
+	"name": "Lead wall",
+	"description": "Cheap defensive building, suitable for protecting the core and turret in the first few waves. Occupy multiple squares",
+	"type": "Wall",
+	"health":340 ,
+	"size":1 ,
+	"requirements": [
+		{ "item": "lead", "amount":4 }
+		
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

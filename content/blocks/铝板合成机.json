@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter"
+	"name": "Aluminum plate synthesizer",
+	"description": "Using iron and aluminum to synthesize aluminum plate",
+	"health":80 ,
+	"itemCapacity": 10,
+	"outputItem": {"item": "铝板","amount":1 },
+	"size":2 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 80,
+	"craftEffect":"bubble",
+	"updateEffect": "nuclearsmoke",
+	"updateEffectChance": 0.1,
+	"consumes": {
+		"power": 0.1194,
+		"items": {
+			"items": [
+				{ "item": "铁", "amount": 1}
+				{ "item": "铝", "amount": 2}	
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "石英", "amount": 80 }
+		{ "item": "lead", "amount": 100 }
+		{ "item": "graphite", "amount": 50 }
+		{ "item": "silicon", "amount": 30 }
+		{ "item": "铁板", "amount": 15 }
+	],
+	"category": "crafting",
+	"research": "链式锻造机",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

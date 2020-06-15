@@ -1,0 +1,23 @@
+
+localizedName: "超级光棱塔"
+description: "古代人类智慧的结晶，利用光学来对单体敌人造成极大打击，超级光棱塔拥有冷冻射击"
+health: 2500
+size: 3
+reload: 120
+range: 300
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+"shootSound":"光棱"
+"chargeTime":120,
+	"chargeEffects":1,
+	"chargeMaxDelay":0 
+	"powerUse":19.999999
+rotatespeed: 5
+requirements: [
+  铝板/250
+  铁板/25
+  电池/125
+  相织硅/100
+]
+category: turret
+research: silver-turret

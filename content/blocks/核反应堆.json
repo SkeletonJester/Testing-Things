@@ -1,0 +1,47 @@
+{
+    "type": "NuclearReactor",
+    "name": "Nuclear reactor",
+    "description": "Use the mixture and thorium to generate a large amount of electricity, remember not to disconnect the coolant supply",
+    "health":300,
+	"size":3,
+	"lightColor":"7f19ea"
+	"coolColor":"ffffff00"
+	"hotColor":"ff9575a3"
+	"flashThreshold":0.46
+	"coolantPower":0.5
+	"explosionRadius":40  
+	"explosionDamage":1350
+	"heating":0.01
+	"hasPower": true,
+	"hasLiquid": true,
+	"itemCapacity":60
+	"liquidCapacity":60
+	"itemDuration": 120
+	"hasItems":	true
+    "hasLiquids":	true
+    "rebuildable":	false
+"liquidCapacity":24 ,
+	"powerProduction": 400,
+	"consumes": {
+"liquid": {"liquid":"cryofluid","amount":0.5,"booster":false}
+		"items": {
+			"items": [
+				{ "item": "放射混合物", "amount": 3 }
+			]
+		}
+	},
+
+    "requirements": [
+	    {"item": "石英", "amount":500 } 
+		{"item": "copper", "amount":400 }
+		{"item": "lead", "amount":400 } 
+		{"item": "titanium", "amount":400 } 
+		{"item": "thorium", "amount":325 }
+		{"item": "金", "amount":250 }
+		{"item": "钴", "amount":180 }
+		{"item": "钻石", "amount":100 }
+		
+	],
+	"category": "power",
+	"research": "impact-reactor"
+}

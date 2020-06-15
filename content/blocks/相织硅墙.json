@@ -1,0 +1,16 @@
+{
+	"type": "DeflectorWall",
+	"name": "Phase woven silicon wall",
+	"description": "It's not as strong as a titanium wall, but it deflects powerful ammunition",
+	"health":1850,
+	"size":1,
+	"hitTime":20,
+	"maxDamageDeflect":350,
+	"requirements": [
+	    { "item": "相织硅","amount": 20 },
+		{ "item": "铝板", "amount":10 }
+	],
+	"category": "defense",
+	"research": "phase-wall-large"
+}
+

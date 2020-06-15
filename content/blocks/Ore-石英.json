@@ -1,0 +1,6 @@
+{
+	"type": "OreBlock",
+	"itemDrop": "石英",
+	"playerUnmineable": false,
+	"variants": 3
+}

@@ -1,0 +1,22 @@
+{
+    "type": "Pump",
+    "name": "Super large mechanical pump",//名字
+    "description": "Faster than mechanical pumps, no need to consume electricity",//介绍
+    "size":3 ,//占地边长支持1~9对应贴图1x1=32x32像素.
+    "health": 80,//生命值
+	"liquidCapacity":50 ,//液体容量
+    "hasLiquids": true,//默认就好
+    "pumpAmount": 1.0,//液体输出量,比例1:60
+    "requirements": [
+		{"item": "copper", "amount":150 },
+		{"item": "lead", "amount": 150},
+		{"item": "metaglass", "amount":75 },
+		{"item": "石英", "amount":80 },
+{"item": "铁", "amount":80 },
+{"item": "金", "amount":45 },
+
+		
+	],//建造消耗,第一个""之间写矿物,第二个:后写数量
+	"category": "liquid",//游戏界面分类
+	"research": "大型机械泵"
+}

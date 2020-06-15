@@ -1,0 +1,6 @@
+ "requirements": [
+	    {"item": "lead", "amount":120 } 
+		{"item": "silicon", "amount":130 }
+		{"item": "thorium", "amount":75 }
+		{"item": "石英", "amount":100 }
+		]

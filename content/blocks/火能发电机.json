@@ -1,0 +1,20 @@
+{
+	"type": "BurnerGenerator",
+	"name": "Fire generator",
+	"description": "Upgrade of thermal generator, increase of power generation",
+	"size": 2,
+	"health": 90,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 60,
+	"itemCapacity":15,
+	"powerProduction": 4.0
+	"requirements": [
+		{ "item": "lead", "amount":80 },
+		{ "item": "copper", "amount": 80 },
+		{ "item": "silicon", "amount": 20 },
+		{ "item": "铁", "amount": 20 },
+	],
+	"category": "power",
+	"research": "combustion-generator"
+}

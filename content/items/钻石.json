@@ -1,0 +1,7 @@
+{
+"type":"material",
+"name":"Diamond",
+"flammability":2.234
+"description":"Diamond crystal, very precious",
+"color":"00F5FF"
+}

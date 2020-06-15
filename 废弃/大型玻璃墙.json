@@ -1,0 +1,12 @@
+{
+	"name": "Large glass wall",
+	"description": "Large glass wall, stronger than small one",
+	"type": "Wall",
+	"health":2000 ,
+	"size":2 ,
+	"requirements": [
+		{ "item": "metaglass", "amount":12}
+	],
+	"category": "defense",
+	"research": "玻璃墙"
+}

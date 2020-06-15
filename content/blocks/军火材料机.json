@@ -1,0 +1,39 @@
+{   	
+"type": "GenericCrafter",
+    "name": "Ammunition material machine", 
+    "description": "The liquid needed to melt materials into ammunition"
+    "size": 3,
+    "health": 400,
+    "craftTime": 160,
+	"craftEffect":"hitLaser",
+	"updateEffect":"steam",
+	"updateEffectChance": 0.15,
+	"flameColor": "F7F7F7",
+	"hasLiquids": true,
+	"hasItems": true,
+	"liquidCapacity": 200,
+	"itemCapacity":30,
+    "consumes": {
+		"power": 0.5,
+"items": {
+			"items": [
+				{ "item": "啸动合金", "amount": 1 }
+				{ "item": "空壳", "amount": 5 }
+				{ "item": "titanium", "amount": 2 }
+			]
+},
+    },
+    "outputLiquid": {"liquid": "军用液体", "amount":100 },//输出液体
+	"requirements": [
+	{ "item": "石英", "amount": 200 }
+		{ "item": "copper", "amount": 200 }
+		{ "item": "silicon", "amount": 100 }
+		{ "item": "titanium", "amount": 100 }
+		{ "item": "固体放射物", "amount": 50 }
+		{ "item": "铝板", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": "矿物离心机",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

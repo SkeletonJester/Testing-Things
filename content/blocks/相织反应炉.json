@@ -1,0 +1,37 @@
+{
+	"type": "GenericCrafter"
+	"name": "Phase weaving reactor",
+	"description": "Melting silicon into phase woven silicon with phase woven cloth",
+	"health":220 ,
+	"itemCapacity": 12,
+	"outputItem": {"item": "相织硅","amount":1 },
+	"size":3 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"craftEffect":"fire",
+	"updateEffect": "hitLancer",
+	"updateEffectChance": 0.1,
+	"consumes": {
+		"power": 0.389
+"liquid": {"liquid":"water","amount":0.1,"booster":false}
+		"items": {
+			"items": [
+				{ "item": "silicon", "amount": 3}
+				{ "item": "phase-fabric", "amount": 1}
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 230 }
+		{ "item": "石英", "amount": 200 }
+		{ "item": "铁板", "amount": 50 }
+		{ "item": "钻石混合物", "amount": 50 }
+
+	],
+	"category": "crafting",
+	"research": "phase-weaver",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

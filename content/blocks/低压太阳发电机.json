@@ -1,0 +1,33 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Low voltage solar generator",
+	"description": "Use carbon plates to strengthen the absorption of the sun. Water is needed to cool it",
+	"size": 2,
+	"health": 100,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 470,
+	"itemCapacity": 2,
+	"liquidCapacity": 10,
+	"powerProduction": 40
+	"consumes": {
+	"liquid": {"liquid":"water","amount":0.05,"booster":false}
+		"items": {
+			"items": [
+				{"item": "碳板","amount": 1 },
+			],
+		"optional": false
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount":120 },
+		{ "item": "copper", "amount": 120 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "碳板", "amount": 5 },
+		{ "item": "空壳", "amount": 80 },
+		
+
+	],
+	"category": "power",
+	"research": "超大型太阳能板"
+}

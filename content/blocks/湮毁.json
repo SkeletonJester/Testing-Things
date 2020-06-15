@@ -1,0 +1,46 @@
+{
+	"name": "Annihilation",
+	"description": "Super large laser turret, another model of melting, can shoot out melting laser rapidly",
+	"type": "LaserTurret",
+	"size": 4,
+	"health": 2950,
+	"buildCostMultiplier": 1,
+	"heatColor":"turretHeat",
+	"shootEffect":"shootBig",
+	"shootSound":"湮灭",
+	"ammoPerShot": 1,
+	"range": 230,
+	"reload": 10,
+"liquidCapacity": 60,
+	"inaccuracy": 0,
+	"recoil": 5,
+	"rotatespeed": 7,
+	"shootShake": 5,
+	"chargeTime":300,
+	"chargeEffects":0,
+	"chargeMaxDelay":120,
+	"chargeEffect":"lancerLaserCharge",
+	"chargeBeginEffect":"lightningCharge",
+	"coolEffect":"steam",
+	"powerUse":15 ,
+	"shootType":"meltdownLaser"
+	"shootDuration": 100,
+	"consumes": {
+		
+"liquid": {"liquid":"water","amount":0.5,} 
+
+		}
+	  	  
+
+	
+	"requirements": [
+  "石英/450"
+  "silicon/400"
+  "钛合金/500"
+  "电池/100"
+  
+
+]
+"category": "turret"
+"research": "meltdown"
+  }

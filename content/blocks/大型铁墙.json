@@ -1,0 +1,12 @@
+{
+	"name": "Large iron wall",
+	"description": "Large iron walls, stronger than small ones, occupy many squares",
+	"type": "Wall",
+	"health":2400 ,
+	"size":2 ,
+	"requirements": [
+		{ "item": "铁", "amount":24}
+	],
+	"category": "defense",
+	"research": "铁墙"
+}

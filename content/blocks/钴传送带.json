@@ -1,0 +1,16 @@
+{
+	"type": "Conveyor",
+	"name": "Cobalt conveyor belt",
+	"description": "Ultimate conveyor belt with higher blood volume and transport speed",
+	"health": 400,//生命
+	"requirements": [
+	    {"item": "plastanium", "amount":1 },
+		{"item": "钴", "amount":1 },
+		{"item": "铁", "amount":2 },
+		{"item": "金", "amount":1 },
+	],//建造消耗,第一个""之间写矿物,第二个:后写数量
+	"category": "distribution",
+"research":"armored-conveyor",//科技树前一项
+	"speed": 0.20//速度比例1:150
+	"itemCapacity":4,
+}

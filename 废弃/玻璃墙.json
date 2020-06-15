@@ -1,0 +1,12 @@
+{
+	"name": "Glass screen wall",
+	"description": "Glass walls save materials",
+	"type": "Wall",
+	"health":500 ,
+	"size":1 ,
+	"requirements": [
+		{ "item": "metaglass", "amount":3}
+	],
+	"category": "defense",
+	"research": "大型铁墙"
+}

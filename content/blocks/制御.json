@@ -1,0 +1,138 @@
+{ 
+     "type":"ItemTurret",
+     "name":"Tame", 
+     "description":"Large fast turret, very fast projectile", 
+     "health":2700,
+	     "size":3,
+		   "targetAir":true,
+     "targetGround":true,
+	 "shootSound":"制御"
+     "rotatespeed":4,
+	 "range":240,
+	 "recoil": 4,
+	 "reload":10,
+	 "inaccuracy": 2,
+	 "shots": 1,
+	 
+	 "ammo": {
+       "copper": {
+	   "speed": 10
+	   "lifetime":40
+     "damage": 12
+     "bulletWidth": 13
+     "bulletHeight": 13
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 10
+	 "pierce": true
+}
+
+       "silicon": {
+	   "speed": 10
+     "damage": 21
+	 "lifetime":40
+     "bulletWidth": 13
+     "bulletHeight": 10
+	  "pierce": true
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 15
+     "reloadMultiplier":1.2
+	 "homingPower":1,
+		"homingRange":60,
+		"pierce": true
+ }
+ 
+       "lead": {
+	   "speed": 10
+     "damage": 12
+	 "lifetime":40
+     "bulletWidth": 13
+     "bulletHeight": 13
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 10 
+	 "pierce": true
+	 }
+
+	 "graphite": {
+	   "speed": 10
+     "damage": 21
+	 "lifetime":40
+     "bulletWidth": 15
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 10
+	 "reloadMultiplier":0.7
+	 "pierce": true
+	 }
+	 "titanium": {
+	   "speed": 10
+     "damage": 13
+	 "lifetime":40
+     "bulletWidth": 20
+     "bulletHeight": 20
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 10 
+	 "reloadMultiplier":1.5
+	   "pierce": true
+	 }
+	 
+	 "碎裂弹": {
+	   "speed": 10
+     "damage": 25
+	 "lifetime":40
+     "bulletWidth": 15
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 5
+	 "reloadMultiplier":0.8
+	   "pierce": true
+	   "fragBullets":10,
+		"fragVelocityMin": 0.1
+		"fragVelocityMax": 1
+		"fragBullet":null
+
+	 }
+	 "硬直弹": {
+	   "speed": 10
+     "damage": 40
+	 "lifetime":40
+     "bulletWidth": 20
+     "bulletHeight": 20
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 5 
+	 "reloadMultiplier":0.5
+	   "pierce": true
+	 }
+	 "冷冻弹": {
+	   "speed": 10
+     "damage": 10
+	 "lifetime":40
+     "bulletWidth": 14
+     "bulletHeight": 14
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 20 
+	 "reloadMultiplier":0.5
+	   "pierce": true
+	   "status":"freezing",
+		    "duration": 0.001
+	 }
+}
+
+	  "requirements": [
+		{ "item": "石英", "amount":500 }
+		{ "item": "copper", "amount":500 }
+		{ "item": "lead", "amount":500 }
+		{ "item": "铁", "amount":400 }
+		{ "item": "钛合金", "amount":325 }
+		
+	],
+	"category": "turret",
+	"research": "M2HB型速射塔"
+}

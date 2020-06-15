@@ -1,0 +1,32 @@
+{
+	"name": "Diamond bit",
+	"description": "By replacing the drill bit with diamond, the mining efficiency has been significantly improved",
+	"type": "Drill",
+	"size":3 ,
+	"health":225 ,
+	"hardnessDrillMultiplier": 2.5,
+	"tier": 8,
+	"drillTime":110 ,
+		"has Shadow":true
+		"drawMineItem":true,
+		"rotateSpeed":7,
+	"drillEffect":"hitBulletBig",
+	"consumes":{
+	"power":2.0 ,
+		 "liquid": {
+			"liquid": "cryofluid", "amount": 0.05,
+			"booster":true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{"item": "石英", "amount":225 }
+		{"item": "lead", "amount":200 }
+		{"item": "铁", "amount":150 }
+		{"item": "silicon", "amount":150 }
+		{"item": "铝板", "amount":50 }
+		{"item": "钻石", "amount":30 }
+	],
+	"category": "production",
+	"research":"blast-drill"
+}

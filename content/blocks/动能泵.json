@@ -1,0 +1,25 @@
+{
+    "type": "Pump",
+    "name": "Kinetic energy pump",
+    "description": "Research liquid pump, using radioactive sand to filter impurities",
+    "size": 4,
+    "health": 500,
+	"liquidCapacity": 300,
+    "hasLiquids": true,
+    "pumpAmount": 4.63489153,
+    "consumes": {
+    "power":0.5
+	},
+    "requirements": [
+		{"item": "copper", "amount": 180},
+		{"item": "metaglass", "amount": 150},
+		{"item": "titanium", "amount": 135},
+		{"item": "钴", "amount": 120},
+		{"item": "silicon", "amount": 100},
+		{"item": "铝板", "amount": 80},
+		{"item": "固体放射物", "amount": 20},
+		
+	],
+	"category": "liquid",
+	"research": "thermal-pump"
+}

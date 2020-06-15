@@ -1,0 +1,18 @@
+{
+	"type": "LiquidExtendingBridge",
+	"name": "Cobalt conduit bridge",
+	"description": "The ultimate liquid conveyor that can span a large number of blocks",
+	"health": 150,
+	"range": 50,
+	"liquidCapacity": 60,
+	"hasPower":false,
+	"requirements": [
+		{ "item": "copper", "amount": 80 },
+		{ "item": "lead", "amount": 75 },
+		{"item": "metaglass", "amount": 55 }
+		{"item": "钴", "amount": 35 }
+		{"item": "铁", "amount": 35 }
+	],
+	"category": "liquid",	
+	"research": "phase-conduit"
+}

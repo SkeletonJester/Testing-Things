@@ -1,0 +1,36 @@
+{
+	"type": "HoverUnit",
+	"name": "Soul fighter",
+	"description": "It's equipped with large bullets, which can destroy the troops",
+	"speed": 0.05,
+	"flying": true,
+	"hitsize": 20,
+	"health": 1250,
+	"rotateWeapon": false,
+	"mass":50,
+	"engineOffset": 5,
+	"engineSize":3,
+    "weaponOffsetY": 5,
+    "rotatespeed": 0.1,
+    "baseRotateSpeed": 0.1,
+    "range": 200,
+    "attackLength": 200,
+	"weapon": {
+		"name": ""
+		"recoil":7.25,
+        "length": 2,
+		"reload": 80,
+		"shots": 1,
+		"shootSound":"shotgun",
+    	"restitution":1,
+    	"inaccuracy": 2,
+ 	    "velocityInaccuracy":0.1,
+        "ejectEffect":"shootBigSmoke",
+    	"range": 200,
+		"alternate": true,
+		"bullet":"flakGlass"
+		"bulletWidth": 18,
+               "bulletHeight": 18,
+	}
+
+}

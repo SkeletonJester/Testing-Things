@@ -1,0 +1,97 @@
+"ammo": {
+       "metaglass": {
+	   "speed": 4
+     "damage": 3
+     "bulletWidth": 12
+     "bulletHeight": 12
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 5
+	 "splashDamageRadius":33,//溅射范围
+	 "splashDamage":30,//范围伤害
+	 "reloadMultiplier":0.8
+	 	 "fragBullets":5,//破片数
+		"fragVelocityMin":1 //破片最小速度
+		"fragVelocityMax":1 //破片最大速度
+		"despawnEffect":"plasticExplosionFlak"
+
+}
+ "blast-compound": {
+	   "speed": 4
+     "damage": 5
+     "bulletWidth": 12
+     "bulletHeight": 12
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 4
+	 "splashDamageRadius":43,//溅射范围
+	 "splashDamage":15,//范围伤害
+	 "despawnEffect":"plasticExplosionFlak"
+}
+
+"plastanium": {
+	   "speed": 4
+     "damage": 6
+     "bulletWidth": 12
+     "bulletHeight": 12
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+	 "splashDamageRadius":63,//溅射范围
+	 "splashDamage":25,//范围伤害
+	 "knockback":1.0
+	 "fragBullets":5,//破片数
+		"fragVelocityMin":1 //破片最小速度
+		"fragVelocityMax":1 //破片最大速度
+		"despawnEffect":"plasticExplosionFlak"
+}
+
+"surge-alloy": {
+	   "speed": 4
+     "damage": 7
+     "bulletWidth": 12
+     "bulletHeight": 12
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+	 "splashDamageRadius":63,//溅射范围
+	 "splashDamage":25,//范围伤害
+	 "lightining":15,
+	 "lightiningLength":90,
+		"despawnEffect":"plasticExplosionFlak"
+	
+}
+"爆破弹": {
+	   "speed": 4
+     "damage": 7
+     "bulletWidth": 15
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 3
+	 "splashDamageRadius":33,//溅射范围
+	 "splashDamage":60,//范围伤害
+	 "reloadMultiplier":1.1
+	 "despawnEffect":"plasticExplosionFlak"
+}
+"碎裂弹": {
+	   "speed": 4
+     "damage": 2
+     "bulletWidth": 12
+     "bulletHeight": 12
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+	 "splashDamageRadius":33,
+	 "splashDamage":45,
+	 "lightining":10,
+	 "reloadMultiplier":1.4
+			"lightiningLength":90,
+			"splashDamageRadius":33,//溅射范围
+	 "splashDamage":45,//范围伤害
+			"fragBullets":10,//破片数
+		"fragVelocityMin":1 ,//破片最小速度
+		"fragVelocityMax":1 ,//破片最大速度
+		"hitSound":"plasticExplosionFlak"
+}
+}

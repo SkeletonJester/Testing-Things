@@ -1,0 +1,44 @@
+{
+	"type": "GenericCrafter",
+	"name": "Refrigeration liquid mixer",
+	"description": "Using cooling liquid and water bottle to process the cooling liquid carefully",
+	"itemCapacity": 15,
+	"size":3 ,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 80,
+	"light Color":"7f19ea"
+	"cool Color":"ffffff00"
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.15,//使用能量,比例1:60
+		"items": {
+			"items": [
+				{ "item": "水瓶", "amount": 2 }
+				{ "item": "titanium", "amount": 4 }
+			]
+},
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 0.25
+		}
+	},
+  	"liquidCapacity": 500,
+	"outputLiquid": {"liquid": "制冷液", "amount":12 },
+	"requirements": [
+		{ "item": "石英", "amount": 150 }
+		{ "item": "copper", "amount":150  }
+		{ "item": "lead", "amount":140 }
+		{ "item": "titanium", "amount":100  }
+		{ "item": "silicon", "amount": 80 }
+		{ "item": "钴", "amount": 80 }
+		{ "item": "铁", "amount": 50 }
+		
+		
+	],
+	"category": "crafting",
+	"research": "cryofluidmixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

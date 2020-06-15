@@ -1,0 +1,29 @@
+{
+	"name": "Alloy bit",
+	"description": "One of the most advanced bits, which consumes a lot of electricity",
+	"size":3 ,
+	"health":500 ,
+	"type": "Drill",
+	"hardnessDrillMultiplier": 2.5,
+	"tier": 10,
+	"drillTime":75 ,
+		"has Shadow":true
+		"drawMineItem":true,
+		"rotateSpeed":10,
+	"drillEffect":"hitBulletBig",
+	"consumes":{
+	"power":20 ,
+		 "liquid": {
+			"liquid": "cryofluid", "amount": 0.1,
+			"booster":true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{"item": "石英", "amount":550 }
+		{"item": "钻石", "amount":225 }
+		{"item": "啸动合金", "amount":65 }
+	],
+	"category": "production",
+	"research":"金刚钻头"
+}

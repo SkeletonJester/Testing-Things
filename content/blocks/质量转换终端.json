@@ -1,0 +1,30 @@
+{
+	"type": "MassDriver",
+	"name": "Quality conversion terminal",
+	"description": "An object transmitter that collects several objects and shoots them to another driver in the distance",
+	"health": 500,
+	"size": 4,
+	"itemCapacity": 300,
+	"range": 650,
+	"rotateSpeed": 0.05,
+	"translation": 10,
+	"minDistribute": 75,
+	"knockback": 6,
+	"reloadTime": 120,
+	"shootEffect": "shootBig2",
+	"smokeEffect": "shootBigSmoke2",
+	"recieveEffect": "mineBig",
+	"shake": 10,
+	"consumes": {"power": 4.0}
+	"requirements": [
+		{"item": "lead","amount": 375 },
+		{"item": "titanium","amount": 375 },
+		{"item": "thorium","amount": 150 },
+		{"item": "silicon","amount": 210 },
+		{"item": "铁","amount": 180 }
+		{"item": "铝板","amount": 50 }
+		{"item": "相织硅","amount": 50 }
+	],
+	"category": "distribution",	
+	"research": "mass-driver"
+}

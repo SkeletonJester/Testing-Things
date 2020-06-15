@@ -1,0 +1,36 @@
+{
+	"type": "GenericCrafter",
+	"name": "Liquid centrifuge",
+	"description": "Conversion of water to coolant by NMR",
+	"size":2 ,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 10,
+	"light Color":"7f19ea"
+	"cool Color":"ffffff00"
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+	"liquid": {"liquid":"water","amount":0.1,} 
+		"power": 2.5,
+		"items": {
+			"items": [
+			]
+},
+
+	},
+  	"liquidCapacity": 500,
+	"outputLiquid": {"liquid": "cryofluid", "amount":0.5 },
+	"requirements": [
+		{ "item": "titanium", "amount":100  }
+		{ "item": "silicon", "amount": 80 }
+		{ "item": "铁", "amount": 50 }
+		{ "item": "相织硅", "amount": 100 }
+		
+		
+	],
+	"category": "production",
+	"research": "cryofluidmixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

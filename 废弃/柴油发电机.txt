@@ -1,0 +1,31 @@
+{
+    "type": "ImpactReactor",
+    "name": "柴油发电机",
+    "description": "运用油来产生电量，需要少量电力启动",
+    "health":240,
+	"size":2,
+	"hasPower": true,
+	"hasLiquid": true,
+	"plasmas":1,
+	"warmupSpeed":0.02,
+	"explosionRadius":0,
+	"explosionDamage":0,
+"liquidCapacity":24 ,
+	"powerProduction": 10,
+	"consumes": {
+	"power":0.05
+		"liquid": { "liquid": "oil", "amount": 0.1}
+
+}
+
+    "requirements": [
+	{"item": "copper", "amount":200 }
+	    {"item": "石英", "amount":125 } 
+		{"item": "thorium", "amount":110 }
+		{"item": "silicon", "amount":80 }
+		{"item": "金", "amount":55 }
+		
+	],
+	"category": "power",
+	"research": "thermal-generator"
+}

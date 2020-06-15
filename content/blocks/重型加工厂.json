@@ -1,0 +1,37 @@
+{
+	"type": "GenericCrafter"
+	"name": "Heavy processing plant",
+	"description": "In order to improve efficiency, transforming the plant into a large-scale one will help us to process iron more efficiently",
+	"health":165 ,
+	"itemCapacity": 20,
+	"outputItem": {"item": "铁板","amount":3 },
+	"size":4 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 300,
+	"craftEffect":"fireballsmoke",
+	"updateEffect": "fireballsmoke",
+	"updateEffectChance": 0.1,
+	"consumes": {
+		"power": 0.8423156,
+		"items": {
+			"items": [
+				{ "item": "铁", "amount": 10}
+				{ "item": "coal", "amount": 13}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 320 }
+		{ "item": "石英", "amount": 250 }
+		{ "item": "铝板", "amount": 150 }
+		{ "item": "钴", "amount": 80 }
+		{ "item": "铁板", "amount": 20 }
+		{ "item": "碳板", "amount": 20 }
+
+	],
+	"category": "crafting",
+	"research": "高炉",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

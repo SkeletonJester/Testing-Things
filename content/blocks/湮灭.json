@@ -1,0 +1,69 @@
+{
+	"name": "Perish",
+	"description": "Super large turret, which uses high-voltage electricity to produce penetrating electronic bombs with slow destructive force, is not suitable for attacking buildings",
+	"type": "LaserTurret",
+	"size": 4,
+	"health": 3250,
+	"buildCostMultiplier": 1,
+	"heatColor":"turretHeat",
+	"shootEffect":"shootBig",
+	"shootSound":"湮灭",
+	"ammoPerShot": 1,
+	"range": 300,
+	"reload": 275,
+"liquidCapacity": 60,
+	"inaccuracy": 0,
+	"recoil": 5,
+	"powerUse":15,
+	"rotatespeed": 3,
+	"shootShake": 5,
+	"chargeTime":300,
+	"chargeEffects":0,
+	"chargeMaxDelay":120,
+	"chargeEffect":"lancerLaserCharge",
+	"chargeBeginEffect":"lightningCharge",
+	"coolEffect":"steam",
+	"shootType": {
+	  "type":"BasicBulletType",
+	   "speed": 1.5,
+	   "lifetime": 200,
+    "damage": 1
+    "bulletWidth": 30
+    "bulletHeight": 30
+	 "pierce": true
+	 "collides":true
+	 "collidesTiles":false
+	    "homingPower":1,//追踪0关,1开
+       "homingRange":300,//追踪范围
+    "shootEffect": "shootBig"
+    "smokeEffect": "shootSmallSmoke"
+    "ammoMultiplier": 1
+		"powerUse": 15,
+		 "splashDamageRadius":50,
+	   "splashDamage":100,
+	}
+	"consumes": {
+"liquid": {"liquid":"water","amount":2.0,} 
+
+		}
+	  	  
+
+	
+	"requirements": [
+  "石英/450"
+  "silicon/350"
+  "钻石/300"
+  "电池/200"
+  
+
+]
+"category": "turret"
+"research": "雷射炮"
+
+	   
+	   
+	   
+	   
+ 
+
+  }

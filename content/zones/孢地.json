@@ -1,0 +1,26 @@
+{
+	"name": "Parallel world - AI crisis Sporangium - difficulty: C+",
+	"description": "Mechanical crisis IV:
+very nice! We've recovered 80% of our technology. Only some advanced turrets haven't been recovered yet. They seem to perceive that desert and snowy terrain are bad for them. Be careful, commander.",
+    "conditionWave": 102,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 200},
+		{"item": "石英", "amount": 200},
+		{"item": "lead", "amount": 200},
+
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "雪地", 
+    		"wave": 72
+			}
+			{
+    		"type": "Unlock",
+    		"block": "duo"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium""钴""thorium""铝"]
+}

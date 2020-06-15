@@ -1,0 +1,25 @@
+{
+	"name": "Large mechanical bit",
+	"description": "In order to improve our mining minerals in the early stage, large mechanical bit can let you mine titanium and thorium",
+	"type": "Drill",
+	"size":4 ,
+	"health":110 ,
+	"tier": 4,
+	"drillTime":450 ,
+		"has Shadow":true
+	"consumes":{
+		 "liquid": {
+			"liquid": "water", "amount": 0.09,
+			"booster":true,
+			"optional": true
+		}
+	},
+	"requirements": [
+		{"item": "copper", "amount":150 }
+		{"item": "lead", "amount":120 }
+		{"item": "石英", "amount":80 }
+		{"item": "graphite", "amount":20 }
+	],
+	"category": "production",
+	"research":"中型机械钻头"
+}

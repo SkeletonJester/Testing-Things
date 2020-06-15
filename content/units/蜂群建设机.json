@@ -1,0 +1,20 @@
+{
+	"name": "蜂群-TC",
+	"description": "一种新型的建设机，能帮助指挥官快速的建造物品",
+	"type": "BuilderDrone",
+	"health": 100,
+	"hitsize":1.5,
+	"speed": 0.5,
+	"range": 20,
+	"rotatespeed":0.2,
+	"baseRotateSpeed":0.1,
+	"mass": 0.1,
+	"flying": true,
+	"drag": 0.02,
+	"maxVelocity":2,
+	"buildPower": 0.5,
+	"weapon":{"bullet":{}},
+	"engineOffset": 1.5,
+	"engineSize":0.8,
+	"drawCell":false
+}

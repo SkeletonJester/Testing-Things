@@ -1,0 +1,41 @@
+{
+	"type": "FlyingUnit",
+	"name": "Make a living",
+	"description": "Armored UAV equipped with TNT, explodes when encountering enemy",
+	"speed": 0.5,
+	"maxVelocity":3.5
+    "drag": 0.2,
+	"flying": true,
+	"hitsize": 2,
+	"health": 300,
+	"rotateWeapon": false,
+ "range": 250,
+	"engineOffset": 5.25,
+	"engineSize":2,
+	"mass":1,
+  "rotateSpeed": 1,
+	"attackLength": 40,
+	"weapon": {
+	   "name": "u",
+     "ignoreRotation": true,
+     "length": 10,
+		 "reload": 120,
+    	"shots": 1,
+		"alternate": false,
+		 "bullet":{
+		    "type":"BombBulletType"
+		"shootSound":"artillery"
+			"splashDamageRadius": 40,
+			"splashDamage":100,
+			"speed": 4,
+			"damage": 1,
+			"bulletWidth": 1,
+			"bulletHeight": 1,
+			"shootEffect": "blastExplosion",
+			"despawnEffect": "flakExplosionBig",
+            "killShooter": true,
+			"lifetime":10,
+            "instantDisappear": true,
+             }
+	}
+}

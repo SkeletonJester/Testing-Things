@@ -1,0 +1,26 @@
+{
+	"name": "蜂母-TC",
+	"description": "生产侍奉者建造机",
+	"unitType": "蜂群建设机",
+	"type": "UnitFactory",
+	"size": 3,
+	"health": 200,
+	"produceTime": 360,
+	"launchVelocity":1,
+	"maxSpawn":4,
+	"consumes": {
+		"power": 10.0,
+		"items": {
+			"items": [
+				{ "item": "钻石", "amount": 5 },
+			]
+		}
+	},
+	"requirements": [
+	{ "item": "silicon", "amount": 225 }
+		{ "item": "铝板", "amount": 50 },
+		{ "item": "相织硅", "amount": 75 }
+	],
+	"category": "units",
+	"research": "侍奉者采矿机"
+}

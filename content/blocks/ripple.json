@@ -1,0 +1,141 @@
+"ammo": {
+       "graphite": {
+	   "speed": 3
+     "damage": 0
+     "bulletWidth": 15
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+	 "splashDamageRadius":31,//溅射范围
+	 "splashDamage":33,//范围伤害
+	 "knockback":0.8
+	 "hitSound":"explosion"
+}
+       "silicon": {
+	   "speed": 3
+     "damage": 0
+     "bulletWidth": 15
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+	 "splashDamageRadius":31,//溅射范围
+	 "splashDamage":33,//范围伤害
+     "homingpower":1
+     "homingrange":30
+	 "hitSound":"explosion"
+}
+     "pyratite": {
+	   "speed": 3
+     "damage": 0
+     "bulletWidth": 15
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+	 "splashDamageRadius":31,//溅射范围
+	 "splashDamage":30,//范围伤害
+	 "status":"burning",
+	 "hitSound":"explosion"
+}
+
+ "blast-compound": {
+	   "speed": 3
+     "damage": 0
+     "bulletWidth": 15
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 4
+	 "splashDamageRadius":56,//溅射范围
+	 "splashDamage":50,//范围伤害
+	 "knockback":0.8
+	 "hitSound":"explosion"
+}
+
+"plastanium": {
+	   "speed": 3
+     "damage": 0
+     "bulletWidth": 15
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+	 "splashDamageRadius":44,//溅射范围
+	 "splashDamage":45,//范围伤害
+	 "knockback":1.0
+	 "fragBullets":5,//破片数
+		"fragVelocityMin":1 //破片最小速度
+		"fragVelocityMax":1 //破片最大速度
+		"hitSound":"explosion"
+	 
+}
+
+"爆破弹": {
+	   "speed": 3
+     "damage": 0
+     "bulletWidth": 15
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+	 "splashDamageRadius":60,//溅射范围
+	 "splashDamage":60,//范围伤害
+	 "reloadMultiplier":0.8
+	 "knockback":1.2
+	 "hitSound":"artillery"
+}
+"金": {
+	   "speed": 3
+     "damage": 0
+     "bulletWidth": 15
+     "bulletHeight": 15
+     "shootEffect": "shootBig2"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+	 "splashDamageRadius":33,
+	 "splashDamage":23,
+	 "lightining":10,
+			"lightiningLength":90,
+			"reloadMultiplier":0.8
+			"hitSound":"artillery"
+}
+"碎裂弹": {
+	   "speed": 3
+     "damage": 0
+     "bulletWidth": 20
+     "bulletHeight": 20
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+	 "splashDamageRadius":33,
+	 "splashDamage":45,
+	 "lightining":10,
+	 "reloadMultiplier":1.4
+			"lightiningLength":90,
+			"fragBullets":20,//破片数
+		"fragVelocityMin":1 ,//破片最小速度
+		"fragVelocityMax":1 ,//破片最大速度
+		"hitSound":"artillery"
+}
+"冷冻弹": {
+    "speed": 3
+    "damage": 1
+	"lifetime": 120,
+    "bulletWidth": 18
+    "bulletHeight": 18
+    "shootEffect": "shellEjectBig"
+    "smokeEffect": "shootSmallSmoke"
+    "ammoMultiplier": 8
+    "reloadMultiplier":1.5
+	 "pierce": true
+	 	 "collides":true
+	 "collidesTiles":false
+				"status":"freezing",
+		    "duration": 15
+		    "speedMultiplier": 10,
+		    "armorMultiplier": 10,
+
+}
+}

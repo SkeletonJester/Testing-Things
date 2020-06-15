@@ -1,0 +1,34 @@
+{
+	"type": "GenericSmelter"
+	"name": "Multiple kilns",
+	"description": "Use of heavy industry and efficient use of lead and sand",
+	"health":100 ,
+	"itemCapacity": 10,
+	"outputItem": {"item": "metaglass","amount":3 },
+	"size":3 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 50,
+	"updateEffect": "smoke",
+	"consumes": {
+		"power": 2.5,
+		"items": {
+			"items": [
+				{ "item": "lead", "amount": 2 }
+                { "item": "sand", "amount": 3 }
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 155 }
+		{ "item": "石英", "amount": 125 }
+		{ "item": "lead", "amount": 110 }
+		{ "item": "thorium", "amount": 50 }
+		{ "item": "铁", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

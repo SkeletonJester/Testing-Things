@@ -1,0 +1,63 @@
+{
+     "type":"PowerTurret",
+     "name":"Laser cannon", 
+     "description":"Large turret, using concentrated electric energy to throw at the enemy", 
+	 "shootSound":"boom",
+     "health":2500,
+	 "chargeTime": 60,
+	 "recoil":5 ,
+	 "liquid": {"liquid":"water","amount":0.05,"booster":false}
+	 "cooldown":5 ,
+	     "size":3,
+		   "targetAir":true,
+     "targetGround":true,
+     "rotatespeed":5,
+	 "heatColor":"turretHeat",
+	 "shots": 2,
+	 "range":250,
+	 "canOverdrive": true,
+	 "powerUse":11.5,
+	 "reload":300,
+	  "shootType": {
+	  "type":"BasicBulletType",
+	   "speed": 7,
+	   "lifetime": 120,
+    "damage": 350
+    "bulletWidth": 20
+    "bulletHeight": 20
+    "shootEffect": "shootBig"
+    "smokeEffect": "shootSmallSmoke"
+    "ammoMultiplier": 1
+    "lightining":15,
+	"lightningLength": 15,
+    "fragBullets":100,
+		"fragVelocityMin": 0.1
+		"fragVelocityMax": 1
+		"fragBullet":null
+		 "splashDamageRadius":20,
+	   "splashDamage":100,
+	}
+	
+
+	
+	"requirements": [
+  "石英/450"
+  "copper/205"
+  "lead/200"
+  "钴/125"
+  "graphite/125"
+  "titanium/75"
+  "金/25"
+  
+
+]
+"category": "turret"
+"research": "ripple"
+
+	   
+	   
+	   
+	   
+	   
+
+  }

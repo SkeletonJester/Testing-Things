@@ -1,0 +1,39 @@
+{
+	"name": "Position system core",
+	"description": "Ultimate position projector, which uses a lot of power and battery to enhance absorption position and slow recovery speed",
+	"type": "ForceProjector",
+	"health":3500 ,
+	"size":3,
+	"radius":120,
+	"phaseUseTime": 280.0
+	"phaseRadiusBoost": 80
+	"basePowerDraw": 10.0
+	"breakage":30000,
+	"cooldownNormal":4.0,
+	"cooldownBrokenBase":1.0,
+
+	"consumes":{
+		"power":17.0 ,
+		"items":{
+			"items":[
+				{"item":"钍电池","amount":2}
+			],
+			"booster":true
+		}
+	},
+	"requirements": [
+		{ "item": "石英", "amount": 700 }
+		{ "item": "lead", "amount": 650 }
+		{ "item": "thorium", "amount": 600 }
+		{ "item": "metaglass", "amount": 500 }
+		{ "item": "plastanium", "amount": 450 }
+		{ "item": "铁", "amount": 300}
+		{ "item": "相织硅", "amount": 150}
+		{ "item": "钍电池", "amount": 150}
+		{ "item": "钴", "amount": 150}
+		
+		
+	],
+	"category": "effect",
+	"research":"钍钻立场投影核心"
+}

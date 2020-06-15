@@ -1,0 +1,27 @@
+{
+	"name": "Theater coastline",
+	"description": "We have come to our border war zone. The enemy is already stationed here. Please be careful of the enemy's reinforcements and make a quick decision",
+	"loadout": "basicFoundation"
+	"conditionWave": 20,
+        "startingItems": [
+    	{"item": "copper", "amount": 400},
+		{"item": "lead", "amount": 300},
+		{"item": "石英", "amount": 200},
+		{"item": "graphite", "amount": 200},
+		{"item": "silicon", "amount": 200},
+		{"item": "铁", "amount": 200},
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "核聚阵", 
+    		"wave": 60
+			}
+			{
+    		"type": "Unlock",
+    		"block": "战地仓库"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium","钴""铝""钻石混合物""thorium"]
+}

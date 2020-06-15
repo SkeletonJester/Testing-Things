@@ -1,0 +1,39 @@
+{
+	"type": "GenericCrafter",
+	"name": "Cryogen generator",
+	"description": "Efficient treatment of titanium and water",
+	"itemCapacity": 15,
+	"size":3 ,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.15,//使用能量,比例1:60
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 3 }
+				{ "item": "水瓶", "amount": 3 }
+			]
+},
+		}
+
+  	"liquidCapacity": 1000,
+	"outputLiquid": {"liquid": "cryofluid", "amount":100 },
+	"requirements": [
+		{ "item": "石英", "amount": 120 }
+		{ "item": "copper", "amount":120  }
+		{ "item": "lead", "amount":100 }
+		{ "item": "titanium", "amount":80  }
+		{ "item": "silicon", "amount": 50 }
+		{ "item": "铁", "amount": 50 }
+		{ "item": "钻石混合物", "amount": 10 }
+		
+		
+	],
+	"category": "crafting",
+	"research": "cryofluidmixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,35 @@
+{
+	"name": "Soul fighter factory",
+	"description": "Production of air fighters",
+	"type": "UnitFactory",
+	"unitType": "灵魂歼击机",
+	"size": 4,
+	"health": 300,
+	"produceTime": 3650,
+	"maxSpawn":3,
+	"consumes": {
+		"power": 3.16851868,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 25},
+                {"item": "titanium", "amount": 25},
+				{"item": "surge-alloy", "amount": 8},
+				{"item": "钛合金", "amount": 8},
+			]
+		}
+	},
+	"category": "units",
+	"requirements": [
+	{"item": "石英", "amount": 120}
+					{"item": "lead", "amount": 300}
+				{"item": "titanium", "amount": 200}
+				{"item": "silicon", "amount":125},
+				{"item": "铁板", "amount": 50},
+				{"item": "金", "amount":100},
+				{"item": "铝板", "amount":100},
+
+				
+	]
+	"category": "units",
+	"research": "干扰战机工厂",
+}

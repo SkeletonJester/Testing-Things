@@ -1,0 +1,16 @@
+{
+	"type": "ArmoredConveyor",
+	"name": "Armored cobalt conveyor belt",
+	"description": "Transport goods at the same speed as cobalt conveyor belt, but with stronger armor, no input from any side except other conveyor belt",
+	"requirements": [
+		{"item": "plastanium", "amount": 2},
+		{"item": "钴", "amount": 3},
+		{"item": "铁", "amount": 3}
+		{"item": "金", "amount":2 },
+	],
+	"health": 750,
+	"itemCapacity":4,
+	"speed": 0.20,
+	"category": "distribution",
+	"research": "钴传送带"
+}

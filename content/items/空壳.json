@@ -1,0 +1,6 @@
+{
+"type":"material",
+"name":"Empty shell",
+"description":"Empty shell without substance inside, which can be filled into various materials",
+"color":"FFF8DC"
+}

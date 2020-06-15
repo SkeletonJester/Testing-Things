@@ -1,0 +1,32 @@
+{
+	"name": "King machine armour factory",
+	"description": "Production penetration ground force",
+	"type": "UnitFactory",
+	"unitType": "魔王",
+	"size": 3,
+	"health": 220,
+	"produceTime": 2200,
+	"maxSpawn":3,
+	"consumes": {
+		"power": 2.165,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 16},
+                {"item": "铁", "amount": 8},
+				{"item": "铝板", "amount": 3},
+			]
+		}
+	},
+	"category": "units",
+	"requirements": [
+					{"item": "lead", "amount": 200}
+				{"item": "copper", "amount": 200}
+               {"item": "铁", "amount": 150},
+				{"item": "silicon", "amount":120},
+				{"item": "金", "amount":50},
+
+				
+	]
+	"category": "units",
+	"research": "刀片机甲工厂",
+}

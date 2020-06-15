@@ -1,0 +1,33 @@
+{
+	"type": "Separator",
+	"name": "Particle centrifuge",//名字
+	"description": "An advanced centrifuge that can split into more minerals",//介绍
+	"itemCapacity": 40,//物品容量
+	"size":3 ,//占地边长支持1~9对应贴图1x1=32x32像素.
+	"craftTime":30,//工作时间60:1
+	"results": [
+				{ "item": "surge-alloy", "amount": 40 }
+				{ "item": "钛合金", "amount": 40 }
+				{ "item": "铁板", "amount": 40 }
+				{ "item": "铝板", "amount": 40 }
+				{ "item": "钻石", "amount":  40}
+		],//分离产物与物品一样
+	"consumes": {
+		"power":2.0,
+		"liquid": {
+			"liquid": "军用液体",
+			"amount": 0.1
+		}//工作消耗液体以水为例
+	},//工作消耗
+  	"liquidCapacity":12 ,//液体容量
+	"requirements": [
+		{ "item": "titanium", "amount":450 }
+		{ "item": "graphite", "amount":250 }
+		{ "item": "铁板", "amount":60 }
+		{ "item": "啸动合金", "amount":100 }
+		
+		
+	],
+	"category": "crafting",//游戏界面分类
+	"research": "矿物离心机"//科技树前一项
+}

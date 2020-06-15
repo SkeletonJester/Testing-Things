@@ -1,0 +1,34 @@
+{
+	"type": "FlyingUnit",
+	"name": "Widow jammer",
+	"description": "Use high speed and laser weapons to interfere with the enemy",
+	"speed": 0.5,
+	"flying": true,
+	"hitsize": 7,
+	"health": 250,
+	"rotateWeapon": false,
+	"mass":35,
+	"engineOffset": 5,
+	"engineSize":3,
+    "weaponOffsetY": 5,
+    "rotatespeed": 0.1,
+    "baseRotateSpeed": 0.1,
+    "range": 100,
+    "attackLength": 100,
+	"weapon": {
+		"name": ""
+		"recoil":7.25,
+        "length": 2,
+		"reload": 200,
+		"shots": 6,
+		"shootSound":"artillery",
+    	"restitution":1,
+    	"inaccuracy": 2,
+ 	    "velocityInaccuracy":0.1,
+        "ejectEffect":"shootBigSmoke",
+    	"range": 100,
+		"alternate": true,
+		"bullet":"lightning"
+	}
+
+}

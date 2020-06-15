@@ -1,0 +1,23 @@
+{
+	"name": "Large mixed wall",
+	"description": "A super defense block",
+	"type": "Wall",
+	"health":8000 ,
+	"size":2 ,
+	"lightningChance":0.1
+	"lightningDamage":30
+	"lightningLength":25
+	"hitTime":7
+	"maxDamageDeflect":7
+	"requirements": [
+	{ "item": "copper", "amount":10 }
+	{ "item": "lead", "amount":10 }
+	{ "item": "titanium", "amount":10 }
+	{ "item": "thorium", "amount":10 }
+	{ "item": "plastanium", "amount":10 }
+	{ "item": "钻石", "amount":10 }
+	{ "item": "surge-alloy", "amount":10 }
+	],
+	"category": "defense",
+	"research": "混合墙"
+}

@@ -1,0 +1,21 @@
+{
+	"name": "Lost Coast - emergency evacuation",
+	"description": "After acquiring new technology, our investigation team also found unknown new enemies. Due to not evacuating in time, our minerals have nothing. Please leave the area in wave 40!",
+    "conditionWave": 10,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "石油田-新技术", 
+    		"wave": 120
+			}
+			{
+    		"type": "Unlock",
+    		"block": "合金锤炼厂"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium""钴""钻石混合物""thorium""铝"]
+}

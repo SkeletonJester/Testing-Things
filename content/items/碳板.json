@@ -1,0 +1,8 @@
+{
+"type":"material",
+"name":"Carbon plate",
+"flammability":3.8
+"explosiveness":0.3
+"description":"Extremely compressed products of coal, which can be used to process many products and to generate electricity",
+"color":"696969"
+}

@@ -1,0 +1,42 @@
+{
+	"type": "GroundUnit",
+	"name": "Blade",
+	"description": "Upgraded blade machine armour with high range and damage",
+	"speed": 0.05,
+	"flying": false,
+	"hitsize": 7,
+	"health": 240,
+	"rotateWeapon": false,
+	"mass":7,
+    "weaponOffsetY": 5,
+    "rotatespeed": 0.2,
+    "baseRotateSpeed": 0.2,
+    "range":20,
+    "attackLength":20,
+		"weapon": {
+		"name": "铁炮"
+		"shotDelay": 5,
+		"spacing": 10,
+       "velocityRnd": 0.15,
+		"recoil":3,
+		"length": 0,
+        "width": 4,
+		"reload": 60,
+		"shots": 1,
+		"shootSound":"shoot",
+    	"restitution":1,
+    	"inaccuracy": 2,
+ 	    "velocityInaccuracy":1.0,
+        "ejectEffect":"shootBigSmoke",
+    	"range":20,
+		"alternate": true,
+		 "bullet":{
+               "speed": 3,
+               "lifetime": 75,
+               "damage":10,              
+               "bulletWidth": 10,
+	           "hitEffect":"shootHeal"
+               "bulletHeight": 10,
+}
+	}
+}

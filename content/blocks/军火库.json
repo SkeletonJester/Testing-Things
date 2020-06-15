@@ -1,0 +1,37 @@
+{
+	"type": "Separator"
+	"name": "Arsenal",
+	"description": "A high-level factory that can produce all kinds of ammunition",
+	"health":80 ,
+	"itemCapacity": 10,
+	"results": [
+                  {"item": "硬直弹","amount":100 },
+                  {"item": "冷冻弹","amount":100 },
+                  {"item": "碎裂弹","amount":100 },
+                  {"item": "爆破弹","amount":100 },
+		],
+	"size":4 ,
+	"itemCapacity":1000 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 5,
+	"craftEffect":"hitLancer",
+	"updateEffect": "explosion",
+	"consumes": {
+	"power": 0.2,
+"liquid": {"liquid":"军用液体","amount":0.15,} 
+	  	  
+	}
+	"requirements": [
+		{ "item": "石英", "amount": 300 }
+		{ "item": "lead", "amount": 300 }
+		{ "item": "copper", "amount": 300 }
+		{ "item": "固体放射物", "amount": 200 }
+		{ "item": "silicon", "amount": 200 }
+		{ "item": "铝板", "amount": 100 }
+	],
+	"category": "crafting",
+	"research": "弹药厂-硬直",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

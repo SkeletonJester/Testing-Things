@@ -1,0 +1,22 @@
+{
+	"name": "Twisted Valley",
+	"description": "We've mined some basic minerals, quartz, so you can develop more industrial buildings",
+    "conditionWave": 10,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 200},
+		{"item": "lead", "amount": 200},
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+    		"zone": "groundZero", 
+    		"wave": 15
+    	},
+    	{
+    		"type": "Unlock",
+    		"block": "titanium-conveyor"
+    	}
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英"]
+}

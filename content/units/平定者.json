@@ -1,0 +1,40 @@
+{
+	"type": "GroundUnit",
+	"name": "Stabilizer",
+	"description": "",
+	"speed": 0.01,
+	"flying": false,
+	"hitsize": 30,
+	"health": 18000,
+	"rotateWeapon": false,
+	"mass":35,
+	"engineOffset": 27.5,
+	"engineSize":6,
+    "weaponOffsetY": 5,
+    "rotatespeed": 0.2,
+    "baseRotateSpeed": 0.2,
+    "range":100,
+    "attackLength":100,
+		"weapon": {
+		"name": ""
+		"recoil":7.25,
+        "length": 2,
+		"reload": 40,
+		"shots": 3,
+		"shootSound":"artillery",
+    	"restitution":1,
+    	"inaccuracy": 2,
+ 	    "velocityInaccuracy":0.1,
+        "ejectEffect":"shootBigSmoke",
+    	"range":100,
+		"alternate": true,
+		 "bullet":{
+               "speed": 12.5,
+               "lifetime": 30,
+               "damage":60,              
+               "bulletWidth": 20,
+	           "hitEffect":"flakExplosionBig"
+               "bulletHeight": 20,
+}
+	}
+}

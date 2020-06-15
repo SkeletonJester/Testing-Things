@@ -1,0 +1,22 @@
+{
+	"name": "Mechanics mecha Pad",
+	"description": "It is allowed to replace the current mecha with a fast building mecha. Stand on it and click to switch",
+	"type": "MechPad",
+	"mech": "Mechanics",
+	"size": 2,
+	"buildTime": 350,
+	"consumes": {
+		"power": 0.5
+	},
+	"category": "upgrade",
+	"research": "trident-ship-pad",
+	"requirements":[
+		{ "item": "copper", "amount": 350 },
+        { "item": "lead", "amount": 350 },
+		{ "item": "titanium", "amount": 300 },
+        { "item": "silicon", "amount": 250 },
+		{ "item": "plastanium", "amount": 200 },
+		{ "item": "铁", "amount": 100 },
+		{ "item": "钛合金", "amount": 50 },
+    ],
+}

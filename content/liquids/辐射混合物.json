@@ -1,0 +1,11 @@
+{
+	"name": "Radiation mixture",
+	"type": "liquids",
+	"description": "Liquid mixed with various impurities",
+	"color": "FFC125",
+	"flammability": 0.0,
+	"temperature": 0.8,
+	"heatCapacity": 0,
+	"viscosity": 0.6,
+	"explosiveness": 0
+}

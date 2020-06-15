@@ -1,0 +1,8 @@
+{
+"type":"material",
+"name":"Phase woven silicon",
+"hardness":5,
+"radioactivity":1.2
+"description":"A very dense soft material, often used in giant industries",
+"color":"FFDAB9"
+}

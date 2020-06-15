@@ -1,0 +1,33 @@
+{
+	"name": "Jamming fighter factory",
+	"description": "Production widows interfere with the army",
+	"type": "UnitFactory",
+	"unitType": "寡妇干扰机",
+	"size": 2,
+	"health": 180,
+	"produceTime": 2800,
+	"maxSpawn":2,
+	"consumes": {
+		"power": 1.94315,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 10},
+                {"item": "titanium", "amount": 10},
+				{"item": "surge-alloy", "amount": 3},
+			]
+		}
+	},
+	"category": "units",
+	"requirements": [
+	{"item": "石英", "amount": 120}
+					{"item": "lead", "amount": 120}
+				{"item": "titanium", "amount": 80}
+               {"item": "铁", "amount": 40},
+				{"item": "silicon", "amount":40},
+				{"item": "金", "amount":40},
+
+				
+	]
+	"category": "units",
+	"research": "dagger-factory",
+}

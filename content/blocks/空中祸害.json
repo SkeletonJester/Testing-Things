@@ -1,0 +1,75 @@
+{ 
+     "type":"DoubleTurret",
+     "name":"Air disaster", 
+     "description":"A new type of antiaircraft gun, suitable for dealing with a large number of enemies", 
+     "health":3090,
+	     "size":4,
+		 "shootSound":"shootBig"
+		 "xRand":2
+		 "spread":2
+		"targetAir":true,
+     "targetGround":false,
+		 "shootCone": 40,
+     "rotatespeed":5,
+	 "range":600,
+	 "maxAmmo":40,
+	 "recoil": 5,
+	 "reload":1,
+	 "inaccuracy": 15,
+	 "shots": 2,
+	 
+	 "ammo": {
+       "爆破弹": {
+	   "speed": 6
+	"lifetime": 90
+     "damage": 0
+     "bulletWidth": 20
+     "bulletHeight": 22
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 20
+     "reloadMultiplier":1.2
+     "splashDamage": 90,
+				"splashDamageRadius": 35,
+				"despawnEffect":"plasticExplosionFlak"
+
+}
+
+       "啸动合金": {
+	   "speed": 7
+     "damage": 400
+     "lifetime": 90
+     "bulletWidth": 25
+     "bulletHeight": 40
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 10
+}
+"硬直弹": {
+	   "speed": 10
+     "damage": 20
+     "lifetime": 90
+     "bulletWidth": 25
+     "bulletHeight": 40
+     "pierce": true
+     "reloadMultiplier":0.2
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 3
+}
+ }
+	  "requirements": [
+		{ "item": "石英", "amount":600 }
+		{ "item": "graphite", "amount":400 }
+		{ "item": "固体放射物", "amount":250 }
+		{ "item": "相织硅", "amount":200 }
+		{ "item": "啸动合金", "amount":150 }
+	],
+	"category": "turret",
+	"research": "空之驱逐"
+	 
+	 
+	 
+	 
+	 
+}

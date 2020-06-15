@@ -1,0 +1,19 @@
+{	
+	"name": "电力墙",
+	"description": "碳板可以让这堵墙产生电力",
+	"type": "SolarGenerator"
+	"health": 1800,
+	"size": 1,
+	"consumesPower":false
+	"outputsPower":true
+    "powerProduction": 0.15,
+
+	"requirements": [
+		{ "item": "碳板", "amount": 3 },
+		{ "item": "plastanium", "amount": 1 },
+		{ "item": "surge-alloy", "amount": 1 },
+	],
+	"category": "defense",
+	"research":"大型钻石墙"
+
+}

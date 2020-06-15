@@ -1,0 +1,38 @@
+{
+	"type": "GenericSmelter"
+	"name": "Alloy compressor",
+	"description": "Compress each row of alloy into high density alloy",
+	"health":120 ,
+	"itemCapacity": 20,
+	"outputItem": {"item": "啸动合金","amount":1 },
+	"size":5 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 650,
+	"craftEffect":"fireballsmoke",
+	"updateEffect": "mine",
+	"updateEffectChance": 0.1,
+	"consumes": {
+		"power": 0.53165163,
+		"items": {
+			"items": [
+				{ "item": "铁板", "amount": 7}
+				{ "item": "铝板", "amount": 6}
+                { "item": "钛合金", "amount": 8}
+                { "item": "surge-alloy", "amount": 6}				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "石英", "amount": 300 }
+		{ "item": "lead", "amount": 300 }
+		{ "item": "铁板", "amount": 220 }
+		{ "item": "silicon", "amount": 200 }
+		{ "item": "铝板", "amount": 100 }
+		{ "item": "固体放射物", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "合金锤炼厂",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

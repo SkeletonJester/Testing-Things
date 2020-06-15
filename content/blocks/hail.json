@@ -1,0 +1,71 @@
+       
+	   "ammo":{
+	    "graphite": {
+	   "speed":4 ,
+		"recoil":1 ,
+		"splashDamageRadius":31,
+	    "splashDamage":33,
+		"ammoMultiplier": 2	
+		"knockback": 0.8,
+		
+		}
+		
+		 "silicon": {
+	   "speed":4 ,
+		"recoil":1 ,
+		"splashDamageRadius":31,
+	    "splashDamage":33,
+		"ammoMultiplier": 2
+		"knockback": 0.8,
+		"homingPower":1,
+		"homingRange":40,
+		}
+		  "pyratite": {
+	   "speed":4 ,
+		"recoil":1 ,
+		"splashDamageRadius":31,
+	    "splashDamage":30,
+		"ammoMultiplier": 2	
+		"knockback": 0.8,
+		"incendChance":1
+		"incendSpread":2
+		}
+
+
+	   "铁": {
+	   "speed":4 ,
+		"damage": 9,
+		"recoil":1 ,
+		"ammoMultiplier": 2
+		
+		}
+		"石英": {
+	   "speed":4 ,
+		"damage": 5,
+		"recoil":1 ,
+		"ammoMultiplier": 2
+		"reloadMultiplier": 1.5
+		}
+		
+			"碎裂弹": {
+	   "speed":4 ,
+		"damage": 8,
+		"recoil":1 ,
+		"ammoMultiplier": 3
+		"reloadMultiplier": 1.2
+		    "splashDamageRadius":30,//溅射范围
+	 "splashDamage":33,//范围伤害
+		}
+		
+			"爆破弹": {
+	   "speed":4 ,
+		"damage": 2,
+		"recoil":1 ,
+		"ammoMultiplier": 3
+		"reloadMultiplier": 0.6
+		    "splashDamageRadius":44,//溅射范围
+	 "splashDamage":50,//范围伤害
+		}
+		
+		}
+		

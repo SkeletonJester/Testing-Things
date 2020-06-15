@@ -1,0 +1,33 @@
+       
+{
+    "type": "ImpactReactor",
+    "name": "Oil Impact Reactor",
+    "description": "The state-of-the-art generators, which need electricity to start, use oil centrifugation to generate electricity",
+    "health":240,
+	"size":3,
+	"buildCostMultiplier":10
+	"hasPower": true,
+	"hasLiquid": true,
+	"plasmas":1,
+	"warmupSpeed":0.02,
+	"explosionRadius":300,
+	"explosionDamage":10000,
+"liquidCapacity":24 ,
+"warmupSpeed":0.001
+	"powerProduction": 1350,
+	"consumes": {
+	"power":650
+		"liquid": { "liquid": "oil", "amount": 1}
+
+}
+
+    "requirements": [
+	{"item": "铝板", "amount":400 }
+		{"item": "相织硅", "amount":550 }
+		{"item": "titanium", "amount":900 }
+		{"item": "啸动合金", "amount":80 }
+		
+	],
+	"category": "power",
+	"research": "impact-reactor"
+}

@@ -1,0 +1,11 @@
+{
+	"name": "Refrigerant solution",
+	"type": "liquids",
+	"description": "The cooling liquid has very strong cooling conductivity and is often used to cool the turret",
+	"color": 00BFFF,
+	"flammability": 0,
+	"temperature": 0.0,
+	"heatCapacity": 1.5,
+	"viscosity": 0.8,
+	"explosiveness": 0
+}

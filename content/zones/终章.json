@@ -1,0 +1,28 @@
+{
+	"name": "Final chapter",
+	"description": "In response to the sound, the ending lingers. What goes out is the sound of music, and what does not go out is the scale of soul
+	At wave 13 victory, please leave as soon as possible",
+    "conditionWave": 13,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 500},
+		{"item": "石英", "amount": 300},
+		{"item": "lead", "amount": 300},
+		{"item": "graphite", "amount": 300},
+		{"item": "silicon", "amount": 300},
+		{"item": "metaglass", "amount": 300},
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "章节", 
+    		"wave": 13
+			}
+			{
+    		"type": "Unlock",
+    		"block": "屏障"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium""钴""钻石混合物""thorium""铝"]
+}

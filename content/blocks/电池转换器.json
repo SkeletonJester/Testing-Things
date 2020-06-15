@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter"
+	"name": "Battery converter",
+	"description": "Use the coolant again to cool the unstable thorium battery into a stable, usable battery",
+	"health":120 ,
+	"itemCapacity": 30,
+	"outputItem": {"item": "电池","amount":3 },
+	"size":2 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"updateEffect": "smoke",
+	"craftEffect":"hitFuse",
+	"updateEffect": "fireSmoke",
+	"consumes": {
+	"power": 1.5,
+"liquid": {"liquid":"cryofluid","amount":0.01,"booster":false}
+		"items": {
+			"items": [
+				{ "item": "钍电池", "amount": 1 }
+	              ]
+	   }
+	}
+	"requirements": [
+		{ "item": "石英", "amount": 180 }
+		{ "item": "lead", "amount": 150 }
+		{ "item": "titanium", "amount": 110 }
+		{ "item": "thorium", "amount": 50 }
+		{ "item": "金", "amount": 20 }
+	],
+	"category": "crafting",
+	"research": "钍电池制造厂",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

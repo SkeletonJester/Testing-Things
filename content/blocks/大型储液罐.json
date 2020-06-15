@@ -1,0 +1,17 @@
+{   	"type": "LiquidTank",
+    "name": "Large reservoir", 
+    "description": "It can store more liquid",
+    "size": 4,
+    "health": 500,
+	"hasLiquids":true,
+	"liquidCapacity": 4500,
+    "requirements":[
+		{ "item": "titanium", "amount": 135 },
+        { "item": "metaglass", "amount": 100 },
+		{ "item": "铁", "amount": 30 },
+		{ "item": "钴", "amount": 10 },
+
+    ],
+    "category": "liquid",
+    "research": "liquid-tank"
+}

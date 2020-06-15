@@ -1,0 +1,31 @@
+{
+	"type": "GenericSmelter"
+	"name": "Iron forging machine",
+	"description": "Use lead and copper to melt into iron",
+	"health":50 ,
+	"itemCapacity": 10,
+	"outputItem": {"item": "铁","amount":1 },
+	"size":2 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 100,
+	"updateEffect": "smoke",
+	"consumes": {
+		"power": 1,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 2 }
+                { "item": "lead", "amount": 2 }
+			]
+		}
+	},
+	"requirements": [
+	{ "item": "石英", "amount": 100 }
+		{ "item": "copper", "amount": 80 }
+		{ "item": "lead", "amount": 45 }
+	],
+	"category": "crafting",
+	"research": "mechanical-drill",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

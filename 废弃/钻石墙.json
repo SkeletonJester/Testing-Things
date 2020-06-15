@@ -1,0 +1,16 @@
+{
+	"name": "钻石墙",
+	"description": "强大的防御块，合金外壳让它不惧怕火焰",
+	"type": "Wall",
+	"health":1500 ,
+	"size":1 ,
+	"lightningChance":0.1
+	"lightningDamage":20
+	"lightningLength":15
+	"requirements": [
+		{ "item": "钻石", "amount":6 }
+		{ "item": "surge-alloy", "amount":3 }
+	],
+	"category": "defense",
+	"research": "大型铁墙"
+}

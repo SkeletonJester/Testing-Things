@@ -1,0 +1,22 @@
+
+localizedName: "光棱塔"
+description: "古代人类智慧的结晶，利用光学来对单体敌人造成极大打击"
+health: 2500
+size: 2
+reload: 120
+range: 200
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+"shootSound":"光棱2"
+"chargeTime":120,
+	"chargeEffects":1,
+	"chargeMaxDelay":0 
+	"powerUse":9.99999
+rotatespeed: 5
+requirements: [
+  lead/250
+  silicon/175
+  金/75
+]
+category: turret
+research: 雷射炮

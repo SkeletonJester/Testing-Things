@@ -1,0 +1,38 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "High voltage solar generator",
+	"description": "Use advanced technology to make the most of the carbon board, but it also needs to replace water with freezing liquid to cool down",
+	"size": 2,
+	"health": 100,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 570,
+	"itemCapacity": 4,
+	"liquidCapacity": 10,
+	"powerProduction": 140
+	"consumes": {
+	"liquid": {"liquid":"cryofluid","amount":0.1,"booster":false}
+		"items": {
+			"items": [
+				{"item": "碳板","amount": 3 },
+			],
+		"optional": false
+		}
+	},
+	"requirements": [
+	{ "item": "石英", "amount":400 },
+		{ "item": "lead", "amount":400 },
+		{ "item": "copper", "amount": 400 },
+		{ "item": "silicon", "amount": 220 },
+		{ "item": "titanium", "amount": 150 },
+		{ "item": "graphite", "amount": 150 },
+		{ "item": "铁", "amount": 80 },
+				{ "item": "碳板", "amount": 40 },
+		{ "item": "空壳", "amount": 500 },
+
+		
+
+	],
+	"category": "power",
+	"research": "中压太阳发电机"
+}

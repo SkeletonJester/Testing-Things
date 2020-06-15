@@ -1,0 +1,81 @@
+{ 
+     "type":"ArtilleryTurret",
+     "name":"Sea wave", 
+     "description":"Super long range turret, nuclear weapon projection", 
+     "health":3250,
+	     "size":4,
+		   "targetAir":false,
+     "targetGround":true,
+     "rotatespeed":10,
+	 "maxAmmo":2,
+	 "shootSound":"海浪射击"
+	 "range":500,
+	 "recoil": 2,
+	 "reload":1250,
+	 "knockback": 6,
+	 "inaccuracy": 4,
+	 "shots": 1,
+	 
+	 "ammo": {
+       "啸动合金": {
+       "type":"ArtilleryBulletType",
+	   "hitSound":"海浪爆炸"
+	   "speed": 3
+     "damage": 0
+	 "pierce": true
+     "bulletWidth": 40
+     "bulletHeight": 60
+	 "hitEffect":"lightningShoot"
+	 "backColor":"7CFC00"
+	 "trailColor":"7CFC00"
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+     "reloadMultiplier":1.0
+	  "status":"freezing",
+            "duration": 15
+		    "speedMultiplier": 10,
+		    "armorMultiplier": 10,
+			"lightining":3,
+			"lightiningLength":20,
+     "despawnEffect":"impactcloud"
+     "splashDamage": 2500,
+				"splashDamageRadius": 135,
+				"fragVelocityMin": 1
+		"fragVelocityMax": 1
+		"fragBullet":null
+		"fragBullet":{
+		"fragBullets":1,
+				"type":"ArtilleryBulletType",
+				"speed": 3
+				"lifetime": 0,
+				"damage": 0,
+				"bulletWidth": 20,
+				"bulletHeight": 30,
+				
+                              "homingPower": 1,
+				"homingRange": 30,
+			"despawnEffect":"nuclearcloud"
+	
+ }
+ } 
+  }
+ 
+
+	  "requirements": [
+		{ "item": "啸动合金", "amount":250 }
+		{ "item": "copper", "amount":650 }
+		{ "item": "铁", "amount":400 }
+		{ "item": "graphite", "amount":500 }
+                { "item": "相织硅", "amount":200 }
+		
+	],
+	"category": "turret",
+	"research": "ripple"
+	 
+	 
+	 
+	 
+	 
+
+}

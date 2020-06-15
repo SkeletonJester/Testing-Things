@@ -1,0 +1,36 @@
+{
+    "name": "未来立场X",
+    "description": "一种新型实验品，能让进入的敌人减速,并且不会吸引敌人仇恨并潜伏在地下,但是立场不再拥有吸收伤害功能
+	
+	He can slow down enemies in range",
+    "health": 1500,
+    "size": 3,
+    "buildCostMultiplier": 1,
+    "radius": 240,
+    "phaseUseTime": 120,
+    "phaseRadiusBoost": 120,
+	"targetable":false
+    "basePowerDraw": 4.0,
+    "breakage": 20000,
+    "cooldownNormal":1.25,
+	"cooldownBrokenBase":10,
+    "consumes": {
+        "power": 35.0,
+        "items": {
+            "items": [
+                {
+                    "item": "水瓶",
+                    "amount": 1
+                }
+            ],
+            "booster": true
+        }
+    },
+    "requirements": [
+		{ "item": "固体放射物", "amount": 350}
+		{ "item": "电池", "amount": 600}
+		{ "item": "啸动合金", "amount": 75} 
+    ],
+    "category": "effect",
+    "research": "立场系统核心"
+}

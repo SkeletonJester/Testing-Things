@@ -1,0 +1,39 @@
+{
+	"name": "Heaven prison",
+	"description": "A research position shield that uses batteries to increase absorption",
+	"type": "ForceProjector",
+	"health":5000 ,
+	"buildCostMultiplier":3
+	"size":4,
+	"radius":240,
+	"phaseUseTime": 300
+	"phaseRadiusBoost": 100
+	"basePowerDraw": 10.0
+	"breakage":80000,
+	"cooldownNormal":3.0,
+	"cooldownBrokenBase":5.0,
+
+	"consumes":{
+		"power":35.0 ,
+		"items":{
+			"items":[
+				{"item":"电池","amount":4}
+			],
+			"booster":true
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 1000 }
+		{ "item": "thorium", "amount": 600 }
+		{ "item": "电池", "amount": 500}
+		{ "item": "plastanium", "amount": 500 }
+		{ "item": "铁", "amount": 500}
+		{ "item": "相织硅", "amount": 300}
+		{ "item": "啸动合金", "amount": 150}
+
+		
+		
+	],
+	"category": "effect",
+	"research":"立场系统核心"
+}

@@ -1,0 +1,32 @@
+{
+	"name": "终焉",
+	"description": "终极激光炮塔，因为啸动合金的兼容炮管和炮身，温度是熔毁的好几倍",
+	"size": 4,
+	"health": 1500,
+	"buildCostMultiplier":3.0
+	"heatColor":"turretHeat",
+	"shootEffect":"shootBig",
+	"shootSound":"laser",
+	"ammoPerShot": 10
+	"reload": 1.3,
+"liquidCapacity": 60,
+	"inaccuracy": 0,
+	"recoil": 5,
+	"rotatespeed": 10,
+	"shootShake": 50,
+	"chargeTime":0,
+	"chargeEffects":1,
+	"chargeMaxDelay":0 
+	"powerUse":555
+	"requirements": [
+  "石英/2000"
+  "铝板/750"
+  "silicon/500"
+  "电池/500"
+  "啸动合金/500"
+  
+
+]
+"category": "turret"
+"research": "魂毁"
+  }

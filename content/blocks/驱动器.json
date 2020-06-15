@@ -1,0 +1,27 @@
+{
+	"type": "MassDriver",
+	"name": "Driver",
+	"description": "A small drive",
+	"health": 100,
+	"size": 1,
+	"itemCapacity": 45,
+	"range": 200,
+	"rotateSpeed": 0.05,
+	"translation": 10,
+	"minDistribute": 20,
+	"knockback": 6,
+	"reloadTime": 120,
+	"shootEffect": "shootBig2",
+	"smokeEffect": "shootBigSmoke2",
+	"recieveEffect": "mineBig",
+	"shake": 10,
+	"consumes": {"power": 1.0}
+	"requirements": [
+		{"item": "lead","amount": 125 },
+		{"item": "titanium","amount": 50 },
+		{"item": "silicon","amount": 40 },
+		{"item": "铁","amount": 20 }
+	],
+	"category": "distribution",	
+	"research": "mass-driver"
+}

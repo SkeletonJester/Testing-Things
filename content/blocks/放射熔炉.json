@@ -1,0 +1,36 @@
+{
+	"type": "GenericCrafter"
+	"name": "Radiant furnace",
+	"description": "Mixing thorium and sand into radioactive sand",
+	"health":75 ,
+	"itemCapacity": 10,
+	"outputItem": {"item": "放射沙","amount":1 },
+	"size":2 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"craftEffect":"mine",
+	"updateEffect": "mine",
+	"consumes": {
+	"power":1.0,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 5}
+				{ "item": "thorium", "amount": 1}
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 100 }
+		{ "item": "石英", "amount": 80 }
+		{ "item": "thorium", "amount": 75 }
+		{ "item": "graphite", "amount": 45 }
+		{ "item": "metaglass", "amount": 45 }
+		{ "item": "铁板", "amount": 5 }
+	],
+	"category": "crafting",
+	"research": "separator",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

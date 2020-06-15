@@ -1,0 +1,15 @@
+{
+	"type": "ArmoredConveyor",
+	"name": "Armored aluminum conveyor belt",
+	"description": "Transport goods at the same speed as cobalt conveyor belt, but with stronger armor, no input from any side except other conveyor belt",
+	"requirements": [
+		{"item": "固体放射物", "amount": 4},
+		{"item": "金", "amount": 3},
+		{"item": "铝板", "amount":1 },
+	],
+	"health": 250,
+	"itemCapacity":10,
+	"speed": 0.30,
+	"category": "distribution",
+	"research": "铝板传送带"
+}

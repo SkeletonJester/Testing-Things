@@ -1,0 +1,26 @@
+{
+	"name": "Frontline Base",
+	"description": "We have returned to our current front-line base. Fortunately, our army left in time and continued to develop new technologies.",
+    "conditionWave": 6,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 500},
+		{"item": "石英", "amount": 300},
+		{"item": "lead", "amount": 300},
+		{"item": "graphite", "amount": 250},
+		{"item": "silicon", "amount": 150},
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "迷失海岸-紧急撤离", 
+    		"wave": 40
+			}
+			{
+    		"type": "Unlock",
+    		"block": "矿物离心机"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium""钴""钻石混合物""thorium""铝"]
+}

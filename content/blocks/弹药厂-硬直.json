@@ -1,0 +1,34 @@
+{
+	"type": "GenericCrafter"
+	"name": "Ammunition factory - hard",
+	"description": "Use hard mineral to extrude into mass material",
+	"health":120 ,
+	"itemCapacity": 10,
+	"outputItem": {"item": "硬直弹","amount":1 },
+	"size":2 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"craftEffect":"hitLancer",
+	"updateEffect": "hitLancer",
+	"consumes": {
+	"power": 1.5,
+		"items": {
+			"items": [
+				{ "item": "空壳", "amount": 1 }
+                { "item": "钻石混合物", "amount": 1 }
+				{ "item": "钴", "amount": 1 }
+	              ]
+	   }
+	}
+	"requirements": [
+		{ "item": "石英", "amount": 150 }
+		{ "item": "lead", "amount": 150 }
+		{ "item": "铁", "amount": 110 }
+		{ "item": "钴", "amount": 110 }
+	],
+	"category": "crafting",
+	"research": "空壳制造机",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

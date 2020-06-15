@@ -1,0 +1,24 @@
+{
+	"type": "SolidPump",
+	"name": "Medium pump",
+	"description": "The use of aluminum plate strengthens the speed of the drill bit, but the size remains the same, but the power consumption increases"
+	"size": 2,
+	"health": 200,
+	"pumpAmount": 0.21348,
+	"result":"water",
+	"rotateSpeed": 8,
+	"attribute":"water",
+	"liquidCapacity":30,
+	"consumes": {
+		"power": 0.15
+	},
+	"requirements": [
+     	{ "item": "copper", "amount": 60 },
+		{ "item": "lead", "amount": 50 },
+		{ "item": "graphite", "amount": 40 },
+		{ "item": "铝", "amount": 30 }
+		{ "item": "铝板", "amount": 10 },
+	],
+	"category": "production",
+	"research": "water-extractor"
+}

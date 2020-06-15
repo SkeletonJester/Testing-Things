@@ -1,0 +1,41 @@
+{
+	"type": "HoverUnit",
+	"name": "Unknown",
+	"description": "",
+	"speed": 0.01,
+	"flying": true,
+	"hitsize": 50,
+	"health": 999999999,
+	"rotateWeapon": false,
+	"mass":35,
+	"engineOffset": 27.5,
+	"engineSize":8,
+    "weaponOffsetY": 5,
+    "rotatespeed": 0.2,
+    "baseRotateSpeed": 0.2,
+    "range": 500,
+    "attackLength": 500,
+	"weapon": {
+		"name": ""
+		"recoil":7.25,
+        "length": 2,
+		"reload": 80,
+		"shots": 100,
+		"shootSound":"artillery",
+    	"restitution":1,
+    	"inaccuracy": 2,
+ 	    "velocityInaccuracy":0.1,
+        "ejectEffect":"shootBigSmoke",
+    	"range": 260,
+		"alternate": true,
+		 "bullet":{
+               "speed": 12.5,
+               "lifetime": 120,
+               "damage":50000,              
+               "bulletWidth": 13.75,
+	           "hitEffect":"flakExplosionBig"
+               "bulletHeight": 20,
+}
+	}
+
+}

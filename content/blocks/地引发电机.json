@@ -1,0 +1,26 @@
+{
+	"type": "ThermalGenerator",
+	"name": "Earth core generator",
+	"description": "Increase contact area and use carbon plate to increase heat",
+	"size": 3,
+	"health": 250,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 80,
+	"liquidCapacity": 60,
+    "generateEffect":"reactorsmoke"
+	"attribute":"heat"
+	"powerProduction": 4.5
+	"requirements": [
+		{ "item": "lead", "amount": 150 },
+		{ "item": "graphite", "amount": 125 },
+		{ "item": "silicon", "amount": 80 },
+		{ "item": "空壳", "amount": 80 },
+		{ "item": "铁", "amount": 70 },
+		{ "item": "碳板", "amount": 20 },
+		{ "item": "铝板", "amount": 10 },
+
+	],
+	"category": "power",
+	"research": "thermal-generator"
+}

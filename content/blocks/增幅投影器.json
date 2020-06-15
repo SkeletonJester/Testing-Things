@@ -1,0 +1,29 @@
+{
+	"name": "Amplification projector",
+	"description": "State of the art projectors that maximize device speed"
+	"type": "OverdriveProjector"
+	"health": 300,//生命
+	"size": 3,//占地边长支持1~9对应贴图1x1=32x32像素.
+	"range": 150,//范围
+	"speedBoostPhase": 1.6,//加速加成
+	"useTime": 450//使用一个物品加成时间
+	"phaseRangeBoost": 30,// 加速范围百分比
+	"speedBoost": 2.7,//加成倍率格式1.0
+	"consumes": {
+		"power": 30,//工作能量消耗,比例1:60
+        "items":{
+			"items":[
+				{"item":"啸动合金","amount":1}
+			]
+			"booster":true
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "plastanium", "amount":750 }
+		{ "item": "相织硅", "amount":250 }
+		{ "item": "啸动合金", "amount":75 }
+	]
+	"category": "effect",
+	"research":"极速投影器"
+}

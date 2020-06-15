@@ -1,0 +1,13 @@
+{
+	"name": "Large lead wall",
+	"description": "Cheap defensive building, suitable for protecting the core and turret in the first few waves. Occupy multiple squares",
+	"type": "Wall",
+	"health":1360 ,
+	"size":2 ,
+	"requirements": [
+		{ "item": "lead", "amount":24 }
+		
+	],
+	"category": "defense",
+	"research": "铅墙"
+}

@@ -1,0 +1,18 @@
+{
+	"type": "BufferedItemBridge",
+	"name": "Cobalt conveyor Bridge",
+	"description": "Ultimate item conveyor that spans a large number of tiles",
+	"health": 150,
+	"range": 50,
+    "speed":80,
+	"bufferCapacity": 20,
+	"requirements": [
+		{ "item": "copper", "amount": 80 },
+		{ "item": "lead", "amount": 75 },
+		{"item": "钴", "amount": 55 }
+		{ "item": "plastanium", "amount": 30 },
+		{ "item": "silicon", "amount": 30 },
+	],
+	"category": "distribution",	
+	"research": "phase-conveyor"
+}

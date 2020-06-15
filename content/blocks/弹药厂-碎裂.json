@@ -1,0 +1,34 @@
+{
+	"type": "GenericCrafter"
+	"name": "Ammunition Plant - fragmentation",
+	"description": "Crushing several minerals into slag",
+	"health":120 ,
+	"itemCapacity": 10,
+	"outputItem": {"item": "碎裂弹","amount":3 },
+	"size":2 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"craftEffect":"hitLancer",
+	"updateEffect": "hitLancer",
+	"consumes": {
+	"power": 1.5,
+		"items": {
+			"items": [
+				{ "item": "空壳", "amount": 1 }
+				{ "item": "metaglass", "amount": 1 }
+				{ "item": "scrap", "amount": 1 }
+	              ]
+	   }
+	}
+	"requirements": [
+		{ "item": "石英", "amount": 150 }
+		{ "item": "lead", "amount": 150 }
+		{ "item": "铁", "amount": 110 }
+		{ "item": "metaglass", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "空壳制造机",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

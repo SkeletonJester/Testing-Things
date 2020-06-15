@@ -1,0 +1,22 @@
+{
+	"name": "Super large warehouse",
+	"description": "Maximize storage",
+	"type": "Vault",
+	"itemCapacity":8000 ,
+	"hasItems": true,
+	"buildCostMultiplier":0.4
+	"health": 1500,
+	"size": 4,
+	"requirements": [
+		{ "item": "titanium", "amount": 950 }
+		{ "item": "石英", "amount": 750 }
+		{ "item": "thorium", "amount": 650 }
+		{ "item": "钴", "amount": 450 }
+		{ "item": "铁", "amount": 300 }
+		{ "item": "金", "amount": 250 }
+		{ "item": "钻石", "amount": 50 }
+		
+	],
+	"category": "effect",
+	"research": "大型仓库"
+}

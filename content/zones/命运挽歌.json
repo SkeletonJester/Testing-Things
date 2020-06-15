@@ -1,0 +1,28 @@
+{
+	"name": "Elegy of fate",
+	"description": "Commander, our core base has been surrounded. We can't escape the enemy's siege. Please hold on to wave 80 to win the evacuation time for the attached commander",
+    "conditionWave": 10,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 1000},
+		{"item": "石英", "amount": 1000},
+		{"item": "lead", "amount": 1000},
+		{"item": "graphite", "amount": 500},
+		{"item": "silicon", "amount": 500},
+		{"item": "铁", "amount": 500},
+		{"item": "金", "amount": 300},
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "核聚阵", 
+    		"wave": 120
+			}
+			{
+    		"type": "Unlock",
+    		"block": "沉默"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium","钴","钻石混合物","铝","thorium"]
+}

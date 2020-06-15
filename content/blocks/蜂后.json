@@ -1,0 +1,123 @@
+{ 
+     "type":"BurstTurret",
+     "name":"Queen bee", 
+     "description":"Large control turret, firing control explosive bullets at high speed", 
+     "health":2300,
+	     "size":3,
+		 "heatColor":"turretHeat",
+		 "maxAmmo":60,
+		 "shootSound":"missile"
+		   "targetAir":true,
+     "targetGround":true,
+	 "booster":false
+     "rotatespeed":5,
+	 "range":450,
+	 "recoil": 2,
+	 "reload":7,
+	 "inaccuracy": 20,
+	 "shots": 1,
+	 
+	 "ammo": {
+       "冷冻弹": {
+	   "type": "MissileBulletType"
+	    "trailColor":"AFEEEE"
+	   "speed": 3
+     "damage": 0
+	 "lifetime": 240,
+     "bulletWidth": 10
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 5
+     "reloadMultiplier":0.5
+	 "homingPower":1,
+		"homingRange":100,
+		"status":"freezing",
+		    "duration": 3
+		    "speedMultiplier": 5,
+		    "armorMultiplier": 5,
+
+}
+
+       "爆破弹": {
+	   "type": "MissileBulletType"
+	   "speed": 3
+     "damage": 0
+	 	 "lifetime": 240,
+     "bulletWidth": 10
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 5
+     "reloadMultiplier":0.8
+	 "status":"burning",
+	 	 "homingPower":1,
+		"homingRange":100,
+"splashDamageRadius":1,
+	   "splashDamage":5,
+}
+
+       "碎裂弹": {
+	   "type": "MissileBulletType"
+	   "speed": 3
+     "damage": 0
+	 "lifetime": 240,
+     "bulletWidth": 10
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+	 "homingPower":1,
+		"homingRange":100,
+     "ammoMultiplier": 5
+     "reloadMultiplier":0.3
+        "fragBullet":{
+		"fragBullets":2,
+				"type":"MissileBulletType",
+				"speed": 3
+				"lifetime": 120,
+				"damage": 2,
+				"bulletWidth": 5,
+				"bulletHeight": 10,
+				"homingPower": 1,
+				"homingRange": 50,
+				"splashDamage": 1,
+				"splashDamageRadius": 10,
+				}
+ }
+ 
+       "硬直弹": {
+	   "type": "MissileBulletType"
+	   "trailColor":"BEBEBE"
+	   "speed": 3
+     "damage": 0
+     "bulletWidth": 10
+     "bulletHeight": 15
+	 "homingPower":1,
+		"homingRange":100,
+	  	 "lifetime": 240,
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+     "reloadMultiplier":0.1
+     "splashDamageRadius":31,
+	 "splashDamage":5,
+	 "knockback":100.0 ,
+	 "lightining":3,
+		"lightningLength":5,
+	 
+	 }
+ }
+	  "requirements": [
+		{ "item": "石英", "amount":200 }
+		{ "item": "graphite", "amount":100 }
+		{ "item": "铝板", "amount":100 }
+		{ "item": "plastanium", "amount":50 }
+	],
+	"category": "turret",
+	"research": "swarmer"
+	 
+	 
+	 
+	 
+	 
+}

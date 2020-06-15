@@ -1,0 +1,24 @@
+{
+	"name": "Super large energy tower",
+	"description": "Range and number of connections upgraded",
+	"type": "PowerNode",
+	"size": 3,
+	"health": 500,
+	"laserRange": 60,
+	"maxNodes": 10,
+	"hasPower":true,
+	"consumesPower": true,
+	"outputsPower": true,
+	"consumes":{"powerBuffered": 0 },
+	"requirements": [
+		{ "item": "copper", "amount": 100 },
+		{ "item": "lead", "amount": 100 },
+		{ "item": "graphite", "amount": 100 },
+		{ "item": "thorium", "amount": 100 },
+		{ "item": "surge-alloy", "amount": 100 }
+		{ "item": "钴", "amount": 500 },
+		{ "item": "钻石", "amount": 1 },
+	],
+	"category": "power",
+	"research": "surge-tower"
+}

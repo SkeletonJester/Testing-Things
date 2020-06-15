@@ -1,0 +1,131 @@
+{ 
+     "type":"ItemTurret",
+     "name":"M2HB rapid fire tower", 
+     "description":"Medium fast turret for less powerful enemies", 
+     "health":700,
+	     "size":2,
+		   "targetAir":true,
+     "targetGround":true,
+	 "shootSound":"M2HB"
+     "rotatespeed":3,
+	 "range":200,
+	 "recoil": 2,
+	 "reload":6,
+	 "inaccuracy": 5,
+	 "shots": 1,
+	 
+	 "ammo": {
+       "copper": {
+	   "speed": 3
+	   "lifetime":120
+     "damage": 13
+     "bulletWidth": 11
+     "bulletHeight": 10
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 10
+}
+
+       "石英": {
+	   "speed": 3
+     "damage": 14
+	 "lifetime":120
+     "bulletWidth": 13
+     "bulletHeight": 13
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 8
+     "reloadMultiplier":1.2
+}
+
+       "silicon": {
+	   "speed": 3
+     "damage": 19
+	 "lifetime":120
+     "bulletWidth": 13
+     "bulletHeight": 10
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 12
+     "reloadMultiplier":1.2
+	 "homingPower":1,
+		"homingRange":33,
+ }
+ "titanium": {
+	   "speed": 3
+     "damage": 16
+	 "lifetime":120
+     "bulletWidth": 13
+     "bulletHeight": 10
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 12
+     "reloadMultiplier":1.5
+ }
+ 
+       "lead": {
+	   "speed": 3
+     "damage": 13
+	 "lifetime":120
+     "bulletWidth": 11
+     "bulletHeight": 10
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 10 
+	 }
+	 
+
+ "sand": {
+	   "speed": 3
+     "damage": 5
+	 "lifetime":120
+     "bulletWidth": 11
+     "bulletHeight": 10
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 10 
+	 "reloadMultiplier":3.0
+	 }
+	 
+	 "graphite": {
+	   "speed": 3
+     "damage": 20
+	 "lifetime":120
+     "bulletWidth": 15
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 10 
+	 "reloadMultiplier":0.8
+	 }
+	 
+	 "metaglass": {
+	   "speed": 3
+     "damage": 7
+	 "lifetime":120
+     "bulletWidth": 15
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 10 
+	 "reloadMultiplier":0.8
+	 "splashDamageRadius":33,
+	   "splashDamage":20,
+	 }
+}
+
+	  "requirements": [
+		{ "item": "石英", "amount":200 }
+		{ "item": "copper", "amount":200 }
+		{ "item": "lead", "amount":200 }
+		{ "item": "graphite", "amount":20 }
+		
+	],
+	"category": "turret",
+	"research": "hail"
+	 
+	 
+	 
+	 
+	 
+}

@@ -1,0 +1,22 @@
+{
+	"name": "Connection terminal",
+	"description": "It has a very remote connection distance and is suitable for places far away from electric energy, but only two power supplies can be connected",
+	"type": "PowerNode",
+	"size": 2,
+	"health": 450,
+	"laserRange": 500,
+	"maxNodes": 2,
+	"hasPower":true,
+	"consumesPower": true,
+	"outputsPower": true,
+	"consumes":{"powerBuffered": 500 },
+	"requirements": [
+		{ "item": "lead", "amount": 220 },
+		{ "item": "thorium", "amount": 120 },
+		{ "item": "铝板", "amount": 100 }
+		{ "item": "固体放射物", "amount": 50 },
+		{ "item": "铁板", "amount": 10 },
+	],
+	"category": "power",
+	"research": "超大型能量塔"
+}

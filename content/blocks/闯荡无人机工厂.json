@@ -1,0 +1,27 @@
+{
+	"name": "Explore the UAV factory",
+	"description": "Production flight self explosive unit",
+	"type": "UnitFactory",
+	"unitType": "闯荡",
+	"size": 2,
+	"health": 190,
+	"produceTime": 1000,
+	"maxSpawn":4,
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			"items": [
+                {"item": "pyratite", "amount": 10},
+			]
+		}
+	},
+	"category": "units",
+	"requirements": [
+                {"item": "铁", "amount": 60},
+				{"item": "silicon", "amount":45},
+				{"item": "lead", "amount": 60}
+				{"item": "copper", "amount": 60}
+	]
+	"category": "units",
+	"research": "干扰战机工厂",
+}

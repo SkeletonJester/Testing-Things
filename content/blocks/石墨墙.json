@@ -1,0 +1,13 @@
+{
+	"name": "Graphite wall",
+	"description": "Medium strength defensive building. Provides moderate defense against enemies",
+	"type": "Wall",
+	"health":500 ,
+	"size":1 ,
+	"requirements": [
+		{ "item": "graphite", "amount":4 }
+		
+	],
+	"category": "defense",
+	"research": "大型铅墙"
+}

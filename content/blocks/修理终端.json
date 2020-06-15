@@ -1,0 +1,37 @@
+{
+	"type": "MendProjector",
+	"name": "Repair terminal",
+	"description": "Large amount of damage can be repaired at one time, but the recovery is slow",
+	"health": 350,
+     "reload":800
+	 "range":150
+	 "speedBoostPhase": 38,
+	 "size": 3,
+	 "healPercent":60
+	 "phaseBoost":38
+	 "phaseRangeBoost":50
+	 "useTime":200
+	 "consumes": {
+		"power": 4.5,//工作能量消耗,比例1:60
+        "items":{
+			"items":[
+				{"item":"相织硅","amount":1}
+			]
+			"booster":true
+			"optional": true
+		}
+	},
+	 
+
+	"requirements": [
+				{"item": "lead", "amount": 200}
+				{"item": "titanium", "amount":180},
+				{"item": "silicon", "amount":120},
+				{"item": "铁", "amount": 80}
+				{"item": "phase-fabric", "amount": 40}
+				{"item": "电池", "amount": 40}
+	]
+	"category": "effect",
+	"research":"mend-projector"
+
+}

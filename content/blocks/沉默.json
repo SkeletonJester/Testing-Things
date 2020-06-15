@@ -1,0 +1,124 @@
+{ 
+     "type":"DoubleTurret",
+     "name":"Silent", 
+     "description":"The ultimate turret, firing destruction bullets in a row", 
+     "health":3790,
+	     "size":4,
+		 "shootSound":"shootBig"
+		 "buildCostMultiplier":2.0
+		 "xRand":2
+		 "spread":2
+		 "shootCone": 40,
+		   "targetAir":true,
+     "targetGround":true,
+     "rotatespeed":5,
+	 "range":300,
+	 "maxAmmo":10,
+	 "recoil": 5,
+	 "reload":10,
+	 "inaccuracy": 0,
+	 "shots": 2,
+	 
+	 "ammo": {
+	 "啸动合金": {
+	 "hitEffect":"lightningShoot"
+	 	 "backColor":"BBFFFF"
+	 "backColor":"BBFFFF"
+	 "trailEffect":"BBFFFF"
+	 "trailColor":"BBFFFF"
+	   "speed": 9
+     "damage": 500
+     "bulletWidth": 30
+     "bulletHeight": 50
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 5
+	 "status":"freezing",
+            "duration": 15
+		    "speedMultiplier": 10,
+		    "armorMultiplier": 10,
+			"lightining":3,
+			"lightiningLength":20,
+			"homingPower":1,
+		"homingRange":50,
+		"fragVelocityMin": 1
+		"fragVelocityMax": 1
+		"fragBullet":null
+		"fragBullet":{
+		"fragBullets":6,
+				"type":"ArtilleryBulletType",
+				"speed": 3
+				"lifetime": 30,
+				"damage": 0,
+				"bulletWidth": 20,
+				"bulletHeight": 30,
+				"splashDamage": 50,
+				"splashDamageRadius": 35,
+				"homingPower": 1,
+				"homingRange": 30,
+			"despawnEffect":"plasticExplosionFlak"
+				}
+}
+	"surge-alloy": {
+	 "hitEffect":"lightningShoot"
+	 	 "backColor":"FFFF00"
+	 "backColor":"FFFF00"
+	 "trailEffect":"FFFF00"
+	 "trailColor":"FFFF00"
+	   "speed": 2
+	"lifetime": 250
+     "damage": 70
+     "bulletWidth": 15
+     "bulletHeight": 40
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 1
+     "reloadMultiplier":0.5
+            "duration": 15
+		"fragBullet":{
+		"fragBullets":1,
+				"type":"ArtilleryBulletType",
+				"speed": 3
+				"lifetime": 10,
+				"damage": 7,
+				"bulletWidth": 1,
+				"bulletHeight": 15,
+				"lightining":10
+			"lightiningLength":15,
+			"despawnEffect":"plasticburn"
+				}
+}
+	 "硬直弹": {
+	 "hitEffect":"lightningShoot"
+	 	 "backColor":"050505"
+	 "backColor":"050505"
+	 "trailEffect":"050505"
+	 "trailColor":"050505"
+	   "speed": 2
+	"lifetime": 150
+     "damage": 30
+     "ammoMultiplier": 2
+     "bulletWidth": 30
+     "bulletHeight": 30
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "reloadMultiplier":0.5
+            "duration": 15
+            "pierce": true
+            "reloadMultiplier":0.5
+}
+ } 
+	  "requirements": [
+		{ "item": "石英", "amount":2000 }
+		{ "item": "graphite", "amount":600 }
+		{ "item": "相织硅", "amount":400 }
+		{ "item": "啸动合金", "amount":300 }
+	],
+	"category": "turret",
+	"research": "幽毁"
+	 
+	 
+	 
+	 
+	 
+}

@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter"
+	"name": "Thorium battery manufacturer",
+	"description": "Using thorium, battery shell and water to make batteries",
+	"health":50 ,
+	"itemCapacity": 30,
+	"outputItem": {"item": "钍电池","amount":1 },
+	"size":2 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 200,
+	"updateEffect": "smoke",
+	"craftEffect":"hitFuse",
+	"updateEffect": "fireSmoke",
+	"consumes": {
+	"power": 2.5,
+"liquid": {"liquid":"water","amount":0.02,"booster":false}
+		"items": {
+			"items": [
+				{ "item": "thorium", "amount": 8 }
+				{ "item": "空壳", "amount": 1 }
+	              ]
+	   }
+	}
+	"requirements": [
+		{ "item": "copper", "amount": 120 }
+		{ "item": "lead", "amount": 120 }
+		{ "item": "silicon", "amount": 55 }
+		{ "item": "thorium", "amount": 200 }
+	],
+	"category": "crafting",
+	"research": "空壳制造机",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

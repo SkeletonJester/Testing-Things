@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter"
+	"name": "Article factory - Solid radiation",
+	"description": "Synthesis of a new substance from radioactive sand and empty shell",
+	"health":80 ,
+	"itemCapacity": 10,
+	"outputItem": {"item": "固体放射物","amount":2 },
+	"size":2 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 50,
+	"craftEffect":"hitLancer",
+	"updateEffect": "hitLancer",
+	"consumes": {
+	"power": 0.2,
+		"items": {
+			"items": [
+				{ "item": "空壳", "amount": 1 }
+				{ "item": "放射沙", "amount": 1 }
+	              ]
+	   }
+	}
+	"requirements": [
+		{ "item": "石英", "amount": 120 }
+		{ "item": "lead", "amount": 120 }
+		{ "item": "copper", "amount": 110 }
+		{ "item": "铁板", "amount": 5 }
+	],
+	"category": "crafting",
+	"research": "空壳制造机",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

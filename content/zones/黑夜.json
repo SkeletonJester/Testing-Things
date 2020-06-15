@@ -1,0 +1,26 @@
+{
+	"name": "Parallel world - AI crisis Night - difficulty: B",
+	"description": "Mechanical crisis V:
+Commander, we seem to have a problem. Our group killing weapon system has been invaded at night. The watchtower has seen the enemy attack our base from the boundless night, and keep this area! This is the most important step for us to restart technology!
+    "conditionWave": 72,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 450},
+		{"item": "石英", "amount": 450},
+		{"item": "lead", "amount": 450},
+
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "孢地", 
+    		"wave": 101
+			}
+			{
+    		"type": "Unlock",
+    		"block": "duo"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium""钴""thorium""铝"]
+}

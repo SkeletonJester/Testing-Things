@@ -1,0 +1,29 @@
+{
+	"name": "Blade machine factory",
+	"description": "Production of assault ground forces",
+	"type": "UnitFactory",
+	"unitType": "刀片",
+	"size": 2,
+	"health": 200,
+	"produceTime": 1400,
+	"maxSpawn":4,
+	"consumes": {
+		"power": 1.5,
+		"items": {
+			"items": [
+				{"item": "silicon", "amount": 9},
+                {"item": "铁", "amount": 4},
+			]
+		}
+	},
+	"category": "units",
+	"requirements": [
+        {"item": "铁", "amount": 80},
+				{"item": "silicon", "amount":70},
+				{"item": "lead", "amount": 90}
+				{"item": "copper", "amount": 90}
+	]
+	"category": "units",
+	"research": "dagger-factory",
+}
+

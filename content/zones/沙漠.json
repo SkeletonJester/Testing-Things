@@ -1,0 +1,26 @@
+{
+	"name": "Parallel world - AI crisis plain - difficulty: D+",
+	"description": "Mechanical crisis II:
+We've got most of our technology back, and the enemy is beginning to test our adaptability to the terrain. This time, it's a desert with few water sources.This time, it's a desert with few water sources. Their actions will be faster
+    "conditionWave": 51,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 300},
+		{"item": "石英", "amount": 300},
+		{"item": "lead", "amount": 300},
+		{"item": "graphite", "amount": 150},
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "平原", 
+    		"wave": 42
+			}
+			{
+    		"type": "Unlock",
+    		"block": "duo"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium""钴""thorium""铝"]
+}

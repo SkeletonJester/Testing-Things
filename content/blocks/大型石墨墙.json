@@ -1,0 +1,13 @@
+{
+	"name": "Large graphite wall",
+	"description": "Medium strength defensive building. Provides medium strength defense against enemies, occupying multiple squares",
+	"type": "Wall",
+	"health":2000 ,
+	"size":2 ,
+	"requirements": [
+		{ "item": "graphite", "amount":24 }
+		
+	],
+	"category": "defense",
+	"research": "石墨墙"
+}

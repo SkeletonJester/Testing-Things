@@ -1,0 +1,13 @@
+{
+	"name": "Large quartz wall",
+	"description": "Cheap defensive buildings. Suitable for core and turret protection in the first few waves. Occupy multiple squares",
+	"type": "Wall",
+	"health":1280 ,
+	"size":2 ,
+	"requirements": [
+		{ "item": "石英", "amount":24 }
+		
+	],
+	"category": "defense",
+	"research": "石英墙"
+}

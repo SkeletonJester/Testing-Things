@@ -1,0 +1,47 @@
+{
+	"name": "Soul destruction",
+	"description": "The super large laser turret, another version of the meltdown, fires lasers that can stay most of the time, and because of the overuse of the barrel, it can only be cooled by the use of freezing liquid",
+	"type": "LaserTurret",
+	"size": 4,
+	"health": 2950,
+	"buildCostMultiplier": 1,
+	"heatColor":"turretHeat",
+	"shootEffect":"shootBig",
+	"shootSound":"laserbig",
+	"ammoPerShot": 1,
+	"range": 230,
+	"reload": 300,
+"liquidCapacity": 60,
+	"inaccuracy": 0,
+	"recoil": 5,
+	"rotatespeed": 7,
+	"shootShake": 5,
+	"chargeTime":300,
+	"chargeEffects":0,
+	"chargeMaxDelay":120,
+	"chargeEffect":"lancerLaserCharge",
+	"chargeBeginEffect":"lightningCharge",
+	"coolEffect":"steam",
+	"shootType":"meltdownLaser"
+			"powerUse":20 ,
+	"shootDuration": 1500,
+	"consumes": {
+
+"liquid": {"liquid":"cryofluid","amount":0.3,} 
+
+		}
+	  	  
+
+	
+	"requirements": [
+  "石英/1000"
+  "silicon/500"
+  "铝板/250"
+  "电池/200"
+  "相织硅/150"
+  
+
+]
+"category": "turret"
+"research": "meltdown"
+  }

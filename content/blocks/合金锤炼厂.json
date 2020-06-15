@@ -1,0 +1,40 @@
+{
+	"type": "GenericSmelter"
+	"name": "Alloy hammering plant",
+	"description": "The factory with larger space can produce surge alloy faster",
+	"health":180 ,
+	"itemCapacity": 10,
+	"outputItem": {"item": "surge-alloy","amount":3 },
+	"size":4 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 110,
+	"craftEffect":"fireballsmoke",
+	"updateEffect": "mine",
+	"updateEffectChance": 0.1,
+	"consumes": {
+		"power": 0.254861854165,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 6}
+				{ "item": "lead", "amount": 7}
+				{ "item": "silicon", "amount": 6}
+                { "item": "titanium", "amount": 6}
+			]
+		}
+	},
+	"requirements": [
+
+				{ "item": "copper", "amount": 235}
+						{ "item": "铝板", "amount": 200}
+				{ "item": "lead", "amount": 200}
+				{ "item": "silicon", "amount": 180}
+                { "item": "thorium", "amount": 150}
+                { "item": "金", "amount": 120}
+                { "item": "铁板", "amount": 100}	
+	],
+	"category": "crafting",
+	"research": "混合熔炼器",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

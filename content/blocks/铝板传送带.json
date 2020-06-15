@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "Aluminum conveyor belt",
+	"description": "The conveyor belt can be made faster by using the light aluminum plate",
+	"health": 100,//生命
+	"requirements": [
+	    {"item": "固体放射物", "amount":2 },
+		{"item": "铝板", "amount":1 },
+	],//建造消耗,第一个""之间写矿物,第二个:后写数量
+	"category": "distribution",
+"research":"钴传送带",//科技树前一项
+	"speed": 0.30//速度比例1:150
+	"itemCapacity":10,
+}

@@ -1,0 +1,6 @@
+{
+"type":"material",
+"name":"Battery",
+"description":"Cooled thorium battery for turret core",
+"color":"#87CEFF"
+}

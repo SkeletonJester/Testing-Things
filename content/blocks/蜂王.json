@@ -1,0 +1,162 @@
+{ 
+     "type":"BurstTurret",
+     "name":"Bee King", 
+     "description":"The super large missile turret, which shoots a large range of explosive ammunition at a slow speed, has an imprecise muzzle, and its fragment missile will track any enemy on the map no matter how far away it disappears
+Explosive mixture: fragment-0
+Bomb: fragment-10
+Fragment: fragment-15
+Hard straight bullet: fragment-8 ",
+     "health":3250,
+	     "size":4,
+		 "heatColor":"turretHeat",
+		 "maxAmmo":3,
+		 "shootSound":"蜂王"
+		   "targetAir":true,
+     "targetGround":true,
+	 "booster":false
+     "rotatespeed":5,
+	 "range":500,
+	 "recoil": 2,
+	 "reload":380,
+	 "inaccuracy": 20,
+	 "shots": 1,
+	 "ammo": {
+       "blast-compound": {
+	   "type": "MissileBulletType"
+	    "trailColor":"8B0000"
+		"hitEffect":"commandSend",
+	   "speed": 4
+     "damage": 150
+	 "lifetime": 240,
+     "bulletWidth": 20
+     "bulletHeight": 20
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 1
+     "reloadMultiplier":0.8
+	 "homingPower":1,
+		"homingRange":100,
+		    "duration": 3
+		    "speedMultiplier": 5,
+		    "armorMultiplier": 5,
+			  "splashDamageRadius":80,
+	   "splashDamage":100,
+
+}
+       "爆破弹": {
+	   "type": "MissileBulletType"
+	   "trailColor":"FF1493"
+	   "hitEffect":"commandSend",
+	   "speed": 5
+     "damage": 250
+	 	 "lifetime": 240,
+     "bulletWidth": 25
+     "bulletHeight": 25
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 1
+	 	 "homingPower":1,
+		"homingRange":100,
+      "splashDamageRadius":90,
+	   "splashDamage":75,
+	      "fragBullet":{
+		"fragBullets":10,
+				"type":"MissileBulletType",
+				"speed": 1
+				"lifetime": 1000000,
+				"damage": 80,
+				"hitEffect":"plasticExplosion",
+				"bulletWidth": 5,
+				"bulletHeight": 10,
+				"homingPower": 1,
+				"homingRange": 100000000000000,
+				"splashDamage": 1,
+				"splashDamageRadius": 20,
+				}
+}
+
+       "碎裂弹": {
+	   "type": "MissileBulletType"
+	   "hitEffect":"commandSend",
+	   "hitSound":"蜂王碎裂"
+	   "speed": 4
+     "damage": 125
+	 "lifetime": 240,
+     "bulletWidth": 30
+     "bulletHeight": 30
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+	 "homingPower":1,
+		"homingRange":100,
+     "ammoMultiplier": 1
+     "reloadMultiplier":0.7
+        "fragBullet":{
+		"fragBullets":15,
+				"type":"MissileBulletType",
+				"hitEffect":"plasticExplosion",
+				"speed": 1
+				"lifetime": 1000000,
+				"damage": 100,
+				"bulletWidth": 15,
+				"bulletHeight": 15,
+				"homingPower": 1,
+				"homingRange": 100000000000000,
+				"splashDamage": 50,
+				"splashDamageRadius": 20,
+				}
+ }
+ 
+       "硬直弹": {
+	   "type": "MissileBulletType"
+	   "hitEffect":"commandSend",
+	      "hitSound":"蜂王硬直"
+	   "trailColor":"BEBEBE"
+	   "speed": 3
+     "damage": 600
+     "bulletWidth": 20
+     "bulletHeight": 45
+	 "hitSound":""
+	 "homingPower":1,
+		"homingRange":200,
+	  	 "lifetime": 240,
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+     "reloadMultiplier":0.5
+     "splashDamageRadius":31,
+	 "splashDamage":5,
+	 "knockback":10.0 ,
+	 "lightining":3,
+		"lightningLength":5,
+		        "fragBullet":{
+				"hitEffect":"plasticExplosion",
+		"fragBullets":8,
+				"type":"MissileBulletType",
+				"speed": 1
+				"lifetime": 1000000,
+				"damage": 100,
+				"bulletWidth": 15,
+				"bulletHeight": 15,
+				"homingPower": 1,
+				"homingRange": 100000000000000,
+				"splashDamage": 20,
+				"splashDamageRadius": 20,
+	 
+	 }
+ }
+ 
+ }
+	  "requirements": [
+		{ "item": "石英", "amount":400 }
+		{ "item": "铝板", "amount":250 }
+		{ "item": "钛合金", "amount":250 }
+		{ "item": "固体放射物", "amount":100 }
+	],
+	"category": "turret",
+	"research": "蜂后"
+	 
+
+	 
+	 
+	 
+}

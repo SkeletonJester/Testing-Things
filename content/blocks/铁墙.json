@@ -1,0 +1,12 @@
+{
+	"name": "Iron wall",
+	"description": "The crystals of copper and lead are stronger than them",
+	"type": "Wall",
+	"health":600 ,
+	"size":1 ,
+	"requirements": [
+		{ "item": "铁", "amount":6 }
+	],
+	"category": "defense",
+	"research": "titanium-wall"
+}

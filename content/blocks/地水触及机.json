@@ -1,0 +1,26 @@
+{
+	"type": "ThermalGenerator",
+	"name": "Ground water generator",
+	"description": "Using empty shell to store a lot of water is more effective than ground water generator",
+	"size": 3,
+	"health": 200,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 80,
+	"liquidCapacity": 60,
+    "generateEffect":"reactorsmoke"
+	"attribute":"water"
+	"powerProduction": 2.5
+	"requirements": [
+		{ "item": "石英", "amount": 110 },
+		{ "item": "lead", "amount": 110 },
+		{ "item": "graphite", "amount": 80 },
+		{ "item": "silicon", "amount": 75 },
+		{ "item": "铁", "amount": 50 },
+		{ "item": "空壳", "amount": 50 },
+		{ "item": "钴", "amount": 50 },
+
+	],
+	"category": "power",
+	"research": "地水发电机"
+}

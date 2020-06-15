@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter"
+	"name": "Resource Converter - cobalt",
+	"description": "Conversion of titanium and iron to cobalt",
+	"health":100 ,
+	"itemCapacity": 30,
+	"outputItem": {"item": "钴","amount":10 },
+	"size":2 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 50,
+	"updateEffect": "steam",
+	"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 2 }
+				{ "item": "铁", "amount": 3 }
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "石英", "amount": 225 }
+		{ "item": "thorium", "amount": 200 }
+		{ "item": "titanium", "amount": 100 }
+		{ "item": "铁", "amount": 100 }
+
+		
+	],
+	"category": "crafting",
+	"research": "回收中心",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

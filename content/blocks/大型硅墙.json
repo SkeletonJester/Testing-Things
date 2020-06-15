@@ -1,0 +1,16 @@
+{
+	"name": "Large silicon wall",
+	"description": "It's not as strong as a plastic steel wall, but it can deflect less powerful ammunition and occupy multiple squares",
+	"type": "DeflectorWall",
+	"health":2200 ,
+	"hitTime":10
+	"maxDamageDeflect":10
+	
+	"size":2 ,
+	"requirements": [
+		{ "item": "silicon", "amount":24 }
+		
+	],
+	"category": "defense",
+	"research": "硅墙"
+}

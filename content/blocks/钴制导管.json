@@ -1,0 +1,15 @@
+{
+	"type": "Conduit",
+	"name": "Cobalt catheter",
+	"description": "Faster transmission speed and less leakage",
+	"health": 300,
+	"liquidCapacity":25,
+	"leakResistance": 20,
+	"requirements": [
+		{"item": "plastanium", "amount": 1 },
+		{"item": "钴", "amount": 1 },
+		{"item": "metaglass", "amount": 2 }
+	],
+	"category": "liquid",
+	"research": "plated-conduit"
+}

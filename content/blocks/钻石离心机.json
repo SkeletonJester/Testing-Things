@@ -1,0 +1,40 @@
+{
+	"type": "GenericCrafter"
+	"name": "Diamond centrifuge",
+	"description": "The diamond making machine is embedded in the interior, so that the diamond can be directly produced",
+	"health":200 ,
+	"itemCapacity": 60,
+	"outputItem": {"item": "钻石","amount":2 },
+	"size":3 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 300,
+	"craftEffect":"fuelburn",
+	"updateEffect": "absorb",
+	"updateEffectChance": 0.1,
+	"consumes": {
+		"power": 2.5,
+"liquid": {"liquid":"water","amount":0.2,"booster":false}
+		"items": {
+			"items": [
+                { "item": "coal", "amount": 60 }
+				{ "item": "thorium", "amount": 30 }
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 350 }
+		{ "item": "石英", "amount": 400 }
+		{ "item": "silicon", "amount": 220 }
+		{ "item": "铁", "amount": 220 }
+		{ "item": "金", "amount": 220 }
+		{ "item": "铝板", "amount": 250 }
+		{ "item": "相织硅", "amount": 100 }
+		
+	],
+	"category": "crafting",
+	"research": "合金锤炼厂",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

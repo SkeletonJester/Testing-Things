@@ -1,0 +1,17 @@
+{
+	"name": "Kinetic discharger",
+	"description": "It can unload faster",
+	    "size": 1,
+    "health": 120,
+	"speed": 0.2,
+	"type": "Unloader",
+	"itemCapacity":35,
+	"requirements": [
+		 {"item": "石英", "amount":175 } 
+		{"item": "silicon", "amount":80 }
+		{"item": "金", "amount":125 }
+		{"item": "钻石混合物", "amount":30 }
+	]
+	"category": "effect",
+	"research": "unloader"
+}

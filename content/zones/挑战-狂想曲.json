@@ -1,0 +1,26 @@
+{
+	"name": "Rhapsody",
+	"description": "The enemy's front base is dangerous and urgent. Please be careful",
+	
+    "conditionWave": 3,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 500},
+		{"item": "石英", "amount": 300},
+		{"item": "lead", "amount": 300},
+		{"item": "graphite", "amount": 300},
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "暗影之地", 
+    		"wave": 60
+			}
+			{
+    		"type": "Unlock",
+    		"block": "幽毁"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium""钴""钻石混合物""thorium""铝"]
+}

@@ -1,0 +1,31 @@
+{
+	"type": "GroundUnit",
+	"name": "03",
+	"description": "300",
+	"speed": 0.2,
+	"flying": false,
+	"health": 300
+	"engineOffset": 5.5
+	"mass":40
+	"weapon": {
+	   "name": "u",
+     "ignoreRotation": true,
+     "length": 10,
+		 "reload": 1,
+    	"shots": 1,
+		"alternate": false,
+		 "bullet":{
+		    "type":"FlakBulletType"
+		"shootSound":"artillery"
+			"speed": 4,
+			"damage": 90000,
+			"bulletWidth": 1,
+			"bulletHeight": 1,
+			"shootEffect": "blastExplosion",
+			"despawnEffect": "flakExplosionBig",
+            "killShooter": false,
+			"lifetime":5,
+            "instantDisappear": false,
+             }
+	}
+}

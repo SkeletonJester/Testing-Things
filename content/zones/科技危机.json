@@ -1,0 +1,27 @@
+{
+	"name": "Technology crisis",
+	"description": "Warning! Power is down 50% all power turrets will stop building!!",
+    "conditionWave": 10,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 600},
+		{"item": "石英", "amount": 600},
+		{"item": "lead", "amount": 600},
+		{"item": "graphite", "amount": 300},
+		{"item": "silicon", "amount": 250},
+		{"item": "铁", "amount": 250},
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "炽热地带", 
+    		"wave": 120
+			}
+			{
+    		"type": "Unlock",
+    		"block": "空中祸害"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium""钴""thorium""铝"]
+}

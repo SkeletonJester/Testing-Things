@@ -1,0 +1,36 @@
+{
+	"type": "GenericSmelter"
+	"name": "Resource Converter - aluminum",
+	"description": "Conversion of titanium and lead to aluminum",
+	"health":100 ,
+	"itemCapacity": 20,
+	"outputItem": {"item": "铝","amount":2 },
+	"size":2 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 30,
+	"updateEffect": "steam",
+	"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 1 }
+				{ "item": "lead", "amount": 1 }
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "石英", "amount": 225 }
+		{ "item": "thorium", "amount": 200 }
+		{ "item": "titanium", "amount": 100 }
+		{ "item": "titanium", "amount": 100 }
+
+
+		
+	],
+	"category": "crafting",
+	"research": "资源转换器-钍",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,29 @@
+{
+	"type": "GenericSmelter"
+	"name": "Quartz extractor",
+	"description": "Extracting lead to get a small amount of quartz",
+	"health":50 ,
+	"itemCapacity": 5,
+	"outputItem": {"item": "石英","amount":1 },
+	"size":1 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 80,
+	"updateEffect": "smoke",
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "lead", "amount": 2}
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 20 }
+		{ "item": "lead", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "graphite-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

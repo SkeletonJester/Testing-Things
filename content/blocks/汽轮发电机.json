@@ -1,0 +1,23 @@
+{
+	"type": "BurnerGenerator",
+	"name": "Turbogenerator",
+	"description": "Use high pressure gas to generate large amount of electric energy with heat",
+	"size": 2,
+	"health": 90,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 60,
+	"itemCapacity":5,
+	"powerProduction": 10
+	"consumes": {
+"liquid": {"liquid":"water","amount":0.07,} 
+		}
+	"requirements": [
+		{ "item": "lead", "amount":150 },
+		{ "item": "copper", "amount": 150 },
+		{ "item": "silicon", "amount": 50 },
+		{ "item": "碳板", "amount": 10 },
+	],
+	"category": "power",
+	"research": "火能发电机"
+}

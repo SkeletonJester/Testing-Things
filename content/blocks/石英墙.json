@@ -1,0 +1,13 @@
+{
+	"name": "Quartz wall",
+	"description": "Cheap defensive buildings. Suitable for core and turret protection in the first few waves",
+	"type": "Wall",
+	"health":320 ,
+	"size":1 ,
+	"requirements": [
+		{ "item": "石英", "amount":6 }
+		
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

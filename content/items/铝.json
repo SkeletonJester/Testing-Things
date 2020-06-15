@@ -1,0 +1,7 @@
+{
+"type":"material",
+"name":"Aluminum",
+"hardness":3,
+"description":"A common metal, often used for construction and processing",
+"color":"008B8B"
+}

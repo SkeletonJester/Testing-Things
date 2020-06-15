@@ -1,0 +1,39 @@
+{
+	"name": "Hybrid position projector",
+	"description": "The shell is made of gold and iron, and thorium is used as the absorption core, so the recovery speed is very fast",
+	"type": "ForceProjector",
+	"health":1100 ,
+	"size":3,
+	"radius":120,
+	"phaseUseTime": 100.0
+	"phaseRadiusBoost": 60
+	"basePowerDraw": 1.0
+	"breakage":1200,
+	"cooldownNormal":1.25,
+	"cooldownBrokenBase":4.0,
+
+	"consumes":{
+		"power":5.0 ,
+		"items":{
+			"items":[
+				{"item":"thorium","amount":5}
+			],
+			"booster":true
+		}
+	},
+	"requirements": [
+	    { "item": "copper", "amount": 500 }
+		{ "item": "石英", "amount": 350 }
+		{ "item": "lead", "amount": 300 }
+		{ "item": "thorium", "amount": 120 }
+		{ "item": "metaglass", "amount": 110 }
+		{ "item": "plastanium", "amount": 80 }
+		{ "item": "铁", "amount": 60}
+		{ "item": "金", "amount": 40}
+		{ "item": "钍电池", "amount": 20}
+		
+		
+	],
+	"category": "effect",
+	"research":"force-projector"
+}

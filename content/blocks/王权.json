@@ -1,0 +1,135 @@
+{ 
+     "type":"ArtilleryTurret",
+     "name":"King ship", 
+     "description":"Large turret, two penetrating bullets fired", 
+     "health":2300,
+	     "size":3,
+		 "shootSound":"artillery"
+		   "targetAir":true,
+     "targetGround":true,
+     "rotatespeed":5,
+	 "range":250,
+	 "recoil": 2,
+	 "reload":10,
+	 "inaccuracy": 3,
+	 "shots": 1,
+	 
+	 "ammo": {
+       "铁": {
+	   "speed": 5
+     "damage": 19
+	 "pierce": true
+     "bulletWidth": 18
+     "bulletHeight": 10
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+     "reloadMultiplier":1.2
+
+}
+
+       "石英": {
+	   "speed": 5
+     "damage": 11
+     "bulletWidth": 18
+     "bulletHeight": 10
+	  "pierce": true
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 4
+     "reloadMultiplier":2.0
+
+}
+
+       "silicon": {
+	   "speed": 5
+     "damage": 12
+     "bulletWidth": 18
+     "bulletHeight": 10
+	  "pierce": true
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+	 "homingPower":1,//追踪力度0不追1追
+		"homingRange":50,//追踪范围
+     "ammoMultiplier": 2
+     "reloadMultiplier":1.2
+
+ }
+ 
+       "plastanium": {
+	   "speed": 6
+     "damage": 10
+     "bulletWidth": 25
+     "bulletHeight": 10
+	  "pierce": true
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+     "reloadMultiplier":1.2
+     "splashDamageRadius":31,//溅射范围
+	 "splashDamage":10,//范围伤害
+	 
+	 
+	 }
+	 	  "硬直弹": {
+	   "speed": 5
+     "damage": 25
+     "bulletWidth": 13
+     "bulletHeight": 13
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 3
+	 "reloadMultiplier":1.0
+	 "lightining":10,
+	 "lightiningLength":90,
+	 }
+	 
+	 "碎裂弹": {
+	   "speed": 5
+     "damage": 15
+     "bulletWidth": 12
+     "bulletHeight": 12
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+	 "splashDamageRadius":33,
+	 "splashDamage":45,
+	 "lightining":10,
+	 "reloadMultiplier":1.4
+			"lightiningLength":90,
+			"splashDamageRadius":33,//溅射范围
+	 "splashDamage":45,//范围伤害
+			"fragBullets":10,//破片数
+		"fragVelocityMin":1 ,//破片最小速度
+		"fragVelocityMax":1 ,//破片最大速度
+		"hitSound":"plasticExplosionFlak"
+	 
+ }
+ "爆破弹": {
+	   "speed": 5
+     "damage": 15
+     "bulletWidth": 15
+     "bulletHeight": 15
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 3
+	 "splashDamageRadius":38,//溅射范围
+	 "splashDamage":33,//范围伤害
+	 "reloadMultiplier":1.1
+	 "despawnEffect":"plasticExplosionFlak"
+}
+ }
+	  "requirements": [
+		{ "item": "石英", "amount":180 }
+		{ "item": "graphite", "amount":130 }
+		{ "item": "铁", "amount":90 }
+		{ "item": "金", "amount":20 }
+	],
+	"category": "turret",
+	"research": "'权力'H2型"
+	 
+	 
+	 
+	 
+	 
+}

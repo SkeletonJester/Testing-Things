@@ -1,0 +1,35 @@
+{
+	"type": "GroundUnit",
+	"name": "Devil",
+	"description": "The demon is equipped with a set of enhanced arc turrets, which can cause a lot of damage when it is close to the building",
+	"speed": 0.04,
+	"flying": false,
+	"hitsize": 10,
+	"health": 2500,
+	"rotateWeapon": false,
+	"mass":20,
+    "weaponOffsetY": 5,
+    "rotatespeed": 0.03,
+    "baseRotateSpeed": 0.03,
+    "range":100,
+    "attackLength":0,
+		"weapon": {
+		"name": ""
+		"shotDelay": 0,
+		"spacing": 10,
+       "velocityRnd": 0.15,
+		"recoil":3,
+		"length": 0,
+        "width": 4,
+		"reload": 45,
+		"shots": 15,
+		"shootSound":"魔王",
+    	"restitution":1,
+    	"inaccuracy": 2,
+ 	    "velocityInaccuracy":1.0,
+        "ejectEffect":"shootBigSmoke",
+    	"range":0,
+		"alternate": true,
+		 "bullet":"lightning"
+	}
+}

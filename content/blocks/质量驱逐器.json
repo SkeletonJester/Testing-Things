@@ -1,0 +1,41 @@
+{
+	"type": "MassDriver",
+	"name": "Mass ejector",
+	"description": "A state-of-the-art quality driver that delivers maximum capacity",
+	"health": 750,
+	"size": 4,
+	"itemCapacity": 750,
+	"range": 950,
+	"rotateSpeed": 0.1,
+	"translation": 999999999,
+	"minDistribute": 250,
+	"knockback": 8,
+	"reloadTime": 120,
+	"shootEffect": "shootBig2",
+	"smokeEffect": "shootBigSmoke2",
+	"recieveEffect": "mineBig",
+	"shake": 10,
+	"ammo":{
+		"10":{
+			"name": "10",
+			"type": "MassDriverBolt",
+			"description": "1000",
+			"speed": "10",
+			"collidesTiles":false,
+			"lifetime":500,
+			"despawnEffect":"smeltsmoke",
+			"hitEffect":"hitBulletBig",
+			"drag":0.1,
+			"color":"cacaca"
+		}
+		}
+	"consumes": {"power": 15.0}
+	"requirements": [
+	{"item": "silicon","amount": 450 },
+		{"item": "啸动合金","amount": 150 },
+		{"item": "铝板","amount": 275 }
+		{"item": "相织硅","amount": 350 }
+	],
+	"category": "distribution",	
+	"research": "质量转换终端"
+}

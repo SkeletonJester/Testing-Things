@@ -1,0 +1,43 @@
+{
+	"type": "GroundUnit",
+	"name": "Quiet",
+	"description": "A device made by the   peacemaker  team to maintain world peace, now transformed by the enemy into a machine to destroy the world",
+	"speed": 0.03,
+	"flying": false,
+	"hitsize": 30,
+	"health": 31800,
+	"rotateWeapon": false,
+	"mass":10,
+	"engineOffset": 27.5,
+	"engineSize":10,
+    "weaponOffsetY": 1,
+    "rotatespeed": 0.2,
+    "baseRotateSpeed": 0.1,
+    "range":50,
+    "alternate": false,
+    "ignoreRotation": true,
+    "attackLength":100,
+		"weapon": {
+		"name": ""
+		"recoil":7.25,
+        "length": 2,
+		"reload": 60,
+		"shots": 20,
+		"shootSound":"artillery",
+		"retreatPercent":1.0
+    	"restitution":1,
+    	"inaccuracy": 2,
+ 	    "velocityInaccuracy":0.1,
+        "ejectEffect":"shootBigSmoke",
+    	"range":50,
+		"alternate": true,
+		 "bullet":{
+               "speed": 7,
+               "lifetime": 40,
+               "damage":200,              
+               "bulletWidth": 20,
+	           "hitEffect":"flakExplosionBig"
+               "bulletHeight": 30,
+}
+	}
+}

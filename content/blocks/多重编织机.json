@@ -1,0 +1,39 @@
+{
+	"type": "GenericCrafter"
+	"name": "Multiple knitting machine",
+	"description": "Using water to deal with sand and thorium",
+	"health":200 ,
+	"itemCapacity": 30,
+	"outputItem": {"item": "phase-fabric","amount":3 },
+	"size":3 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 70,
+	"craftEffect":"hitFuse",
+	"updateEffect": "fireSmoke",
+	"updateEffectChance": 0.1,
+	"consumes": {
+		"power": 2.5,
+"liquid": {"liquid":"water","amount":0.2,"booster":false}
+		"items": {
+			"items": [
+                { "item": "sand", "amount": 15 }
+				{ "item": "thorium", "amount": 6 }
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "thorium", "amount": 400 }
+		{ "item": "石英", "amount": 300 }
+		{ "item": "silicon", "amount": 255 }
+		{ "item": "铁", "amount": 110 }
+		{ "item": "金", "amount": 90 }
+		{ "item": "钻石混合物", "amount": 50 }
+		
+	],
+	"category": "crafting",
+	"research": "phase-weaver",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

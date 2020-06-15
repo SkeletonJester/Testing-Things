@@ -1,0 +1,37 @@
+{
+	"type": "GenericSmelter"
+	"name": "Diamond mixture reactor",
+	"description": "Use a lot of coal and radioactive thorium to synthesize diamond",
+	"health":100 ,
+	"itemCapacity": 20,
+	"outputItem": {"item": "钻石混合物","amount":1 },
+	"size":3 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smoke",
+	"consumes": {
+		"power": 2,
+"liquid": {"liquid":"water","amount":0.2,"booster":false}
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 8 }
+                { "item": "thorium", "amount": 4 }
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 325 }
+		{ "item": "石英", "amount": 300 }
+		{ "item": "silicon", "amount": 225 }
+		{ "item": "titanium", "amount": 200 }
+		{ "item": "铁", "amount": 150 }
+		{ "item": "金", "amount": 100 }
+		
+	],
+	"category": "crafting",
+	"research": "黄金熔炼器",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

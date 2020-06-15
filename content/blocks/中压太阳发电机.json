@@ -1,0 +1,36 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "Medium voltage solar generator",
+	"description": "It enhances the service life of carbon plates, but it also requires additional carbon plates, which need water to cool",
+	"size": 2,
+	"health": 100,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 620,
+	"itemCapacity": 3,
+	"liquidCapacity": 10,
+	"powerProduction": 80
+	"consumes": {
+	"liquid": {"liquid":"water","amount":0.1,"booster":false}
+		"items": {
+			"items": [
+				{"item": "碳板","amount": 2 },
+			],
+		"optional": false
+		}
+	},
+	"requirements": [
+	{ "item": "石英", "amount":200 },
+		{ "item": "lead", "amount":200 },
+		{ "item": "copper", "amount": 200 },
+		{ "item": "silicon", "amount": 120 },
+		{ "item": "titanium", "amount": 80 },
+		{ "item": "graphite", "amount": 80 },
+		{ "item": "碳板", "amount": 15 },
+		{ "item": "空壳", "amount": 200 },
+		
+
+	],
+	"category": "power",
+	"research": "低压太阳发电机"
+}

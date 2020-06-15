@@ -1,0 +1,37 @@
+{
+	"type": "GenericCrafter"
+	"name": "Aluminum plate mixer",
+	"description": "Using iron plate and aluminum to synthesize a large number of aluminum plates",
+	"health":80 ,
+	"itemCapacity": 10,
+	"outputItem": {"item": "铝板","amount":7 },
+	"size":3 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"craftEffect":"bubble",
+	"updateEffect": "bubble",
+	"updateEffectChance": 0.1,
+	"consumes": {
+		"power": 0.1194,
+		"items": {
+			"items": [
+				{ "item": "铁板", "amount": 1}
+				{ "item": "铝", "amount": 5}	
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "石英", "amount": 150 }
+				{ "item": "铝板", "amount": 100 }
+		{ "item": "lead", "amount": 100 }
+		{ "item": "graphite", "amount": 50 }
+		{ "item": "silicon", "amount": 50 }
+		{ "item": "铁", "amount": 50 }
+		{ "item": "铁板", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "铝板合成机",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

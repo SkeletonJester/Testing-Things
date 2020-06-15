@@ -1,0 +1,41 @@
+{
+	"type": "HoverUnit",
+	"name": "Ruin",
+	"description": "",
+	"speed": 0.02,
+	"flying": true,
+	"hitsize": 30,
+	"health": 25450,
+	"rotateWeapon": false,
+	"mass":35,
+	"engineOffset": 27.5,
+	"engineSize":20,
+    "weaponOffsetY": 5,
+    "rotatespeed": 0.2,
+    "baseRotateSpeed": 0.2,
+    "range": 200,
+    "attackLength": 260,
+	"weapon": {
+		"name": ""
+		"recoil":7.25,
+        "length": 2,
+		"reload": 45,
+		"shots": 1,
+		"shootSound":"artillery",
+    	"restitution":1,
+    	"inaccuracy": 2,
+ 	    "velocityInaccuracy":0.1,
+        "ejectEffect":"shootBigSmoke",
+    	"range": 200,
+		"alternate": true,
+		 "bullet":{
+               "speed": 12.5,
+               "lifetime": 30,
+               "damage":100,              
+               "bulletWidth": 13.75,
+	           "hitEffect":"flakExplosionBig"
+               "bulletHeight": 20,
+}
+	}
+
+}

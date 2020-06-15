@@ -1,0 +1,36 @@
+{
+	"type": "GenericCrafter"
+	"name": "Blast furnace",
+	"description": "Smelting iron into refined iron can be used to develop new technologies",
+	"health":110 ,
+	"itemCapacity": 10,
+	"outputItem": {"item": "铁板","amount":1 },
+	"size":3 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 680,
+	"craftEffect":"fireballsmoke",
+	"updateEffect": "mine",
+	"updateEffectChance": 0.1,
+	"consumes": {
+		"power": 0.53261,
+		"items": {
+			"items": [
+				{ "item": "铁", "amount": 6}
+				{ "item": "coal", "amount": 10}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 220 }
+		{ "item": "铝", "amount": 150 }
+		{ "item": "石英", "amount": 200 }
+		{ "item": "铁", "amount": 120 }
+		{ "item": "钴", "amount": 80 }
+
+	],
+	"category": "crafting",
+	"research": "multi-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

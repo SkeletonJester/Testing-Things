@@ -1,0 +1,8 @@
+{
+"type":"resource",
+"name":"Blasting ammunition",
+"explosiveness":2.0
+"flammability":0.3
+"description":"A mixture of explosive mixtures, often used as cannon ammunition",
+"color":"CD5555"
+}

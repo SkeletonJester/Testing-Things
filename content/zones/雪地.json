@@ -1,0 +1,27 @@
+{
+	"name": "Parallel world - AI crisis Snow - difficulty: D",
+	"description": "Mechanical crisis III:
+Our engineers have recovered most of the technology, and the enemy has come to the cold and snowy area. The puddles here are very suitable for blocking the enemy
+Come on, Commander",
+    "conditionWave": 72,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 200},
+		{"item": "石英", "amount": 200},
+		{"item": "lead", "amount": 200},
+
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "沙漠", 
+    		"wave": 52
+			}
+			{
+    		"type": "Unlock",
+    		"block": "duo"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium""钴""thorium""铝"]
+}

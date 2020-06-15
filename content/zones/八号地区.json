@@ -1,0 +1,25 @@
+{
+	"name": "Area eight",
+	"description": "Once a large front base, it has been abandoned for a long time. Operate carefully and be careful of powerful enemies",
+    "conditionWave": 10,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 400},
+		{"item": "lead", "amount": 300},
+		{"item": "graphite", "amount": 150},
+		{"item": "silicon", "amount": 150},
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "爆裂矿区", 
+    		"wave": 45
+			}
+			{
+    		"type": "Unlock",
+    		"block": "混合立场投影器"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium","钴"]
+}

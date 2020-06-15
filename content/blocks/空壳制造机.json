@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter"
+	"name": "Shell making machine",
+	"description": "Using glass and titanium to make empty shells",
+	"health":70 ,
+	"itemCapacity": 10,
+	"outputItem": {"item": "空壳","amount":3 },
+	"size":2 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 80,
+	"updateEffect": "smoke",
+	"consumes": {
+	"power": 1.5,
+		"items": {
+			"items": [
+				{ "item": "metaglass", "amount": 4 }
+	              ]
+	   }
+	}
+	"requirements": [
+		{ "item": "copper", "amount": 100 }
+		{ "item": "lead", "amount": 90 }
+		{ "item": "metaglass", "amount": 55 }
+	],
+	"category": "crafting",
+	"research": "multi-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,24 @@
+{
+	"name": "Explosive mining area",
+	"description": "This is the best place for mining. It seems that there are enemies here first. The reconnaissance plane has found that the enemy seems to be very strong. Be careful",
+    "conditionWave": 10,
+	"loadout": "basicFoundation"
+        "startingItems": [
+    	{"item": "copper", "amount": 400},
+		{"item": "lead", "amount": 300},
+		{"item": "lead", "amount": 300},
+    ],
+    "requirements": [
+    	{
+    		"type": "ZoneWave",
+			"zone": "stainedMountains", 
+    		"wave": 30
+			}
+			{
+    		"type": "Unlock",
+    		"block": "铁锻造机"
+    	}
+
+    ],
+    "resources": ["copper", "lead", "coal", "sand", "石英","titanium"]
+}

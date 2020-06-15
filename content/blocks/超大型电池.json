@@ -1,0 +1,24 @@
+{
+	"name": "Super large battery",
+	"description": "Maximum storage capacity",
+	"type": "SolarGenerator",
+	"size": 4,
+	"health": 500,
+	"category": "power",
+	"BuildVisibility": "shown",
+	"canOverdrive": true,
+	"outputsPower": true,
+	"consumesPower": true,
+	
+	"consumes": {
+		"powerBuffered": 500000.0 },
+	"requirements": [
+		   {"item": "石英", "amount":300 } 
+		{"item": "lead", "amount":250 }
+		{"item": "silicon", "amount":125 }
+		{"item": "金", "amount":55 }
+		{"item": "钻石", "amount":10 }
+	]
+	"category": "power",
+	"research": "battery-large"
+}

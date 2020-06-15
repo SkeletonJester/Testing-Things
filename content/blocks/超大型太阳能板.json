@@ -1,0 +1,22 @@
+{
+    "type": "SolarGenerator",
+    "name": "Super large solar panel",
+    "description": "Use solar energy to the extreme",
+    "size": 4,
+    "health":200 ,
+	"consumesPower":false
+	"outputsPower":true
+    "powerProduction": 6.0,
+
+    "requirements": [
+	    {"item": "石英", "amount":125 } 
+		{"item": "lead", "amount":125 }
+		{"item": "silicon", "amount":100 }
+		{"item": "phase-fabric", "amount":50 }
+		{"item": "碳板", "amount":100 }
+		{"item": "钍电池", "amount":20 }
+		
+	],
+	"category": "power",
+	"research": "solar-panel-large"
+}

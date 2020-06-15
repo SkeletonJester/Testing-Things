@@ -1,0 +1,36 @@
+{
+    "name": "未来立场Z",
+    "description": "一种新型实验品，能让进入的敌人伤害减少60%,并且不会吸引敌人仇恨并潜伏在地下,但是立场不再拥有吸收伤害功能
+	
+	He can reduce the enemy's health and damage by 40%",
+    "health": 1500,
+    "size": 3,
+    "buildCostMultiplier": 1,
+    "radius": 240,
+    "phaseUseTime": 120,
+	"targetable":false
+    "phaseRadiusBoost": 120,
+    "basePowerDraw": 4.0,
+    "breakage": 20000,
+    "cooldownNormal":1.25,
+	"cooldownBrokenBase":10,
+    "consumes": {
+        "power": 35.0,
+        "items": {
+            "items": [
+                {
+                    "item": "水瓶",
+                    "amount": 1
+                }
+            ],
+            "booster": true
+        }
+    },
+    "requirements": [
+		{ "item": "相织硅", "amount": 450}
+		{ "item": "silicon", "amount": 600}
+		{ "item": "啸动合金", "amount": 100}
+    ],
+    "category": "effect",
+    "research": "立场系统核心"
+}

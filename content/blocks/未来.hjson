@@ -1,0 +1,22 @@
+
+localizedName: "未来"
+description: "无法预测的世界末端，究极是自卫国家利器，还是剥夺自由的枷锁？"
+health: 3850
+size: 4
+reload: 120
+range: 380
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+"shootSound":"光棱"
+"chargeTime":120,
+	"chargeEffects":1,
+	"chargeMaxDelay":0 
+	"powerUse":30
+rotatespeed: 5
+requirements: [
+  固体放射物/250
+  啸动合金/75
+  相织硅/250
+]
+category: turret
+research: 超级光棱塔

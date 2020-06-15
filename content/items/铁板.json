@@ -1,0 +1,7 @@
+{
+"type":"material",
+"name":"Iron plate",
+"hardness":5,
+"description":"Iron comes from long time smelting in blast furnace",
+"color":"DCDCDC"
+}

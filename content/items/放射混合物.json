@@ -1,0 +1,8 @@
+{
+"type":"resource",
+"name":"Radioactive mixture",
+"flammability":0.3
+"radioactivity":1.5
+"description":"A product of a mixture of thorium and explosives, often used in large factories",
+"color":"FF6A6A"
+}

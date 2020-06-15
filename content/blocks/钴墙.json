@@ -1,0 +1,16 @@
+{
+	"name": "Cobalt wall",
+	"description": "Use Cobalt with strong hardness to build defense, which consumes a lot",
+	"type": "Wall",
+	"health":3000 ,
+	"size":1 ,
+	"lightningChance":0.1
+	"lightningDamage":20
+	"lightningLength":15
+	"requirements": [
+		{ "item": "钴", "amount":100 }
+		
+	],
+	"category": "defense",
+	"research": "硅墙"
+}

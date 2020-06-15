@@ -1,0 +1,26 @@
+{
+	"type": "SolidPump",
+	"name": "Large pump",
+	"description": "The diamond bit allows it to explore deeper, and the aluminum plate speeds it up"
+	"size": 3,
+	"health": 280,
+	"pumpAmount": 0.56413184,
+	"result":"water",
+	"rotateSpeed": 15,
+	"attribute":"water",
+	"liquidCapacity":30,
+	"consumes": {
+		"power": 0.15
+	},
+	"requirements": [
+     	{ "item": "copper", "amount": 150 },
+		{ "item": "石英", "amount": 125 },
+		{ "item": "graphite", "amount": 70 },
+		{ "item": "铝", "amount": 80 }
+		{ "item": "铝板", "amount": 55 },
+				{ "item": "铁板", "amount": 10 },
+				{ "item": "钛合金", "amount": 5 },
+	],
+	"category": "production",
+	"research": "中型抽水机"
+}

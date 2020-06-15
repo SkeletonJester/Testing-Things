@@ -1,0 +1,35 @@
+{
+	"type": "GenericSmelter"
+	"name": "Resource converter thorium",
+	"description": "Conversion of titanium to thorium",
+	"health":100 ,
+	"itemCapacity": 20,
+	"outputItem": {"item": "thorium","amount":1 },
+	"size":2 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 10,
+	"updateEffect": "steam",
+	"consumes": {
+		"power": 1.2,
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 2 }
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "石英", "amount": 225 }
+		{ "item": "thorium", "amount": 200 }
+		{ "item": "titanium", "amount": 100 }
+		{ "item": "铁", "amount": 100 }
+		{ "item": "钴", "amount": 100 }
+
+		
+	],
+	"category": "crafting",
+	"research": "回收中心",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

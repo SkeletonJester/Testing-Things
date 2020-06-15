@@ -1,0 +1,38 @@
+{   	
+"type": "GenericSmelter",
+    "name": "Radiation mixer", 
+    "description": "To melt thorium, sand, and titanium into a radioactive mixture"
+    "size": 3,
+    "health": 400,
+    "craftTime": 160,
+	"craftEffect":"hitLaser",
+	"updateEffect":"steam",
+	"updateEffectChance": 0.15,
+	"flameColor": "FFC125",
+	"hasLiquids": true,
+	"hasItems": true,
+	"liquidCapacity": 200,
+	"itemCapacity":20,
+    "consumes": {
+		"power": 0.25,
+"items": {
+			"items": [
+				{ "item": "thorium", "amount": 1 }
+				{ "item": "titanium", "amount": 1 }
+				{ "item": "sand", "amount": 2 }
+			]
+},
+    },
+    "outputLiquid": {"liquid": "辐射混合物", "amount":15.5 },//输出液体
+	"requirements": [
+	{ "item": "石英", "amount": 325 }
+		{ "item": "copper", "amount": 125 }
+		{ "item": "silicon", "amount": 80 }
+		{ "item": "titanium", "amount": 80 }
+		{ "item": "铝板", "amount": 40 }
+	],
+	"category": "crafting",
+	"research": "melter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

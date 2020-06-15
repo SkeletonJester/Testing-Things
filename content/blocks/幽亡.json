@@ -1,0 +1,102 @@
+{ 
+     "type":"DoubleTurret",
+     "name":"Secluded death", 
+     "description":"Super large turret, another model of ghost, will fire two powerful bullets", 
+     "health":3790,
+	     "size":4,
+		 "shootSound":"shootBig"
+		 "xRand":2
+		 "spread":2
+		 "shootCone": 40,
+		   "targetAir":true,
+     "targetGround":true,
+     "rotatespeed":5,
+	 "range":230,
+	 "maxAmmo":10,
+	 "recoil": 5,
+	 "reload":6,
+	 "inaccuracy": 2,
+	 "shots": 2,
+	 
+	 "ammo": {
+       "copper": {
+	   "speed": 7
+     "damage": 43
+     "bulletWidth": 20
+     "bulletHeight": 22
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+     "reloadMultiplier":1.2
+
+}
+
+       "thorium": {
+	   "speed": 7
+     "damage": 75
+     "bulletWidth": 20
+     "bulletHeight": 25
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 4
+}
+
+       "titanium": {
+	   "speed": 7
+     "damage": 58
+     "bulletWidth": 20
+     "bulletHeight": 25
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 4
+     "reloadMultiplier":1.5
+
+ }
+	 "钴": {
+	   "speed": 9
+     "damage": 80
+     "bulletWidth": 20
+     "bulletHeight": 30
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+     "reloadMultiplier":0.7
+
+	 }
+	 
+	 "硬直弹": {
+	   "speed": 9
+     "damage": 150
+     "bulletWidth": 20
+     "bulletHeight": 30
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+     "reloadMultiplier":0.9
+	 }
+	 "铁板": {
+	   "speed": 7
+     "damage": 200
+     "bulletWidth": 30
+     "bulletHeight": 30
+     "shootEffect": "shootBig"
+     "smokeEffect": "shootSmallSmoke"
+     "ammoMultiplier": 2
+     "reloadMultiplier":0.5
+	 }
+	 
+ }
+	  "requirements": [
+		{ "item": "石英", "amount":400 }
+		{ "item": "graphite", "amount":250 }
+		{ "item": "surge-alloy", "amount":125 }
+		{ "item": "相织硅", "amount":100 }
+	],
+	"category": "turret",
+	"research": "spectre"
+	 
+	 
+	 
+	 
+	 
+}

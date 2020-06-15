@@ -1,0 +1,34 @@
+{
+	"name": "Fast projector",
+	"description": "Faster, farther and more power consumption than overspeed",//介绍
+	"type": "OverdriveProjector"
+	"health": 200,//生命
+	"size": 3,//占地边长支持1~9对应贴图1x1=32x32像素.
+	"range": 120,//范围
+	"speedBoostPhase": 1.5,//加速加成
+	"useTime": 200//使用一个物品加成时间
+	"phaseRangeBoost": 30,// 加速范围百分比
+	"speedBoost": 2.0,//加成倍率格式1.0
+	"consumes": {
+		"power": 8.5,//工作能量消耗,比例1:60
+        "items":{
+			"items":[
+				{"item":"相织硅","amount":1}
+			]
+			"booster":true
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount":300 }
+		{ "item": "titanium", "amount":225 }
+		{ "item": "silicon", "amount":210 }
+		{ "item": "plastanium", "amount":120 }
+		{ "item": "金", "amount":100 }
+		{ "item": "钴", "amount":80 }
+		{ "item": "相织硅", "amount":80 }
+		{ "item": "钻石", "amount":20 }
+	]
+	"category": "effect",
+	"research":"overdrive-projector"
+}

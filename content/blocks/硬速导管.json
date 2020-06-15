@@ -1,0 +1,15 @@
+{
+	"type": "ArmoredConduit",
+	"name": "Hard velocity conduit",
+	"description": "The rate of liquid transfer is the same as that of cobalt catheter, but the armor is stronger. Both sides only receive liquid through the catheter. Less leakage in case of leakage",
+	"health": 650,
+	"liquidCapacity":40,
+	"leakResistance": 50,
+	"requirements": [
+		{"item": "plastanium", "amount": 2 },
+		{"item": "钴", "amount": 3 },
+		{"item": "metaglass", "amount": 2 }
+	],
+	"category": "liquid",
+	"research": "钴制导管"
+}

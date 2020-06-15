@@ -1,0 +1,38 @@
+{
+	"type": "GenericSmelter"
+	"name": "Diamond refiner",
+	"description": "Using water and graphite to process diamond to get diamond",
+	"health":110 ,
+	"itemCapacity": 20,
+	"outputItem": {"item": "钻石","amount":1 },
+	"size":3 ,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 90,
+	"updateEffect": "smoke",
+	"consumes": {
+		"power": 3.5,
+"liquid": {"liquid":"water","amount":0.2,"booster":false}
+		"items": {
+			"items": [
+				{ "item": "graphite", "amount": 5 }
+                { "item": "钻石混合物", "amount": 2 }
+				
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 400 }
+		{ "item": "石英", "amount": 300 }
+		{ "item": "graphite", "amount": 225 }
+		{ "item": "titanium", "amount": 200 }
+		{ "item": "铁", "amount": 150 }
+		{ "item": "surge-alloy", "amount": 150 }
+
+		
+	],
+	"category": "crafting",
+	"research": "钻石混合物反应机",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

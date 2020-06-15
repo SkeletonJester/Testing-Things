@@ -1,0 +1,35 @@
+{
+	"type": "Separator",
+	"name": "Mineral centrifuge",//名字
+	"description": "Use radiation mixture to transform into various precious minerals",//介绍
+	"itemCapacity": 20,//物品容量
+	"size":3 ,//占地边长支持1~9对应贴图1x1=32x32像素.
+	"craftTime":30,//工作时间60:1
+	"results": [
+				{ "item": "surge-alloy", "amount": 1 }
+				{ "item": "放射沙", "amount": 2 }
+				{ "item": "金", "amount": 1 }
+				{ "item": "铁", "amount": 1 }
+				{ "item": "铝", "amount": 1 }
+				{ "item": "钻石混合物", "amount":  1}
+		],//分离产物与物品一样
+	"consumes": {
+		"power":2.0,
+		"liquid": {
+			"liquid": "辐射混合物",
+			"amount": 0.2
+		}//工作消耗液体以水为例
+	},//工作消耗
+  	"liquidCapacity":12 ,//液体容量
+	"requirements": [
+		{ "item": "copper", "amount": 200}
+		{ "item": "titanium", "amount":120 }
+		{ "item": "graphite", "amount":80 }
+		{ "item": "铁板", "amount":60 }
+		{ "item": "铝板", "amount":20 }
+		
+		
+	],
+	"category": "crafting",//游戏界面分类
+	"research": "放射熔炉"//科技树前一项
+}
