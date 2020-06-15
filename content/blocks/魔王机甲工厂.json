@@ -2,7 +2,7 @@
 	"name": "King machine armour factory",
 	"description": "Production penetration ground force",
 	"type": "UnitFactory",
-	"unitType": "name11",
+	"unitType": "魔王",
 	"size": 3,
 	"health": 220,
 	"produceTime": 2200,
