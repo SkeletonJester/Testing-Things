@@ -246,7 +246,7 @@ pointingLaserTurret.smokeEffect = Fx.lancerLaserShootSmoke;
  // 发射声音 
  // pointingLaserTurret.shootSound = Sounds.laser; 
  // pointingLaserTurret.chargeSound = "s.ogg"; 
- loadSound("光棱充能.ogg", s => pointingLaserTurret.chargeSound = s); 
+ loadSound("name1.ogg", s => pointingLaserTurret.chargeSound = s); 
  loadSound("光棱.ogg", s => pointingLaserTurret.shootSound = s); 
  // 充能时间 60 = 1s 
  pointingLaserTurret.chargeTime = 60; 
