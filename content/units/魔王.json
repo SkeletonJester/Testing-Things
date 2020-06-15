@@ -23,7 +23,7 @@
         "width": 4,
 		"reload": 45,
 		"shots": 15,
-		"shootSound":"魔王",
+		"shootSound":"name11",
     	"restitution":1,
     	"inaccuracy": 2,
  	    "velocityInaccuracy":1.0,
