@@ -8,7 +8,7 @@
      "targetGround":true,
      "rotatespeed":10,
 	 "maxAmmo":2,
-	 "shootSound":"海浪射击"
+	 "shootSound":"name6"
 	 "range":500,
 	 "recoil": 2,
 	 "reload":1250,
@@ -19,7 +19,7 @@
 	 "ammo": {
        "啸动合金": {
        "type":"ArtilleryBulletType",
-	   "hitSound":"海浪爆炸"
+	   "hitSound":"name7"
 	   "speed": 3
      "damage": 0
 	 "pierce": true
