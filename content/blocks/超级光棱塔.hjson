@@ -7,7 +7,7 @@ reload: 120
 range: 300
 ammoUseEffect: shellEjectSmall
 inaccuracy: 0
-"shootSound":"光棱"
+"shootSound":"name2"
 "chargeTime":120,
 	"chargeEffects":1,
 	"chargeMaxDelay":0 
