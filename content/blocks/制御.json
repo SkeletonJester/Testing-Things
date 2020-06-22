@@ -10,9 +10,9 @@
      "rotatespeed":4,
 	 "range":240,
 	 "recoil": 4,
-	 "reload":10,
+	 "reload":6,
 	 "inaccuracy": 2,
-	 "shots": 1,
+	 "shots": 2,
 	 
 	 "ammo": {
        "copper": {
@@ -126,11 +126,11 @@
 }
 
 	  "requirements": [
-		{ "item": "石英", "amount":500 }
+		{ "item": "石英", "amount":400 }
 		{ "item": "copper", "amount":500 }
 		{ "item": "lead", "amount":500 }
-		{ "item": "铁", "amount":400 }
-		{ "item": "钛合金", "amount":325 }
+		{ "item": "铁", "amount":375 }
+		{ "item": "钛合金", "amount":125 }
 		
 	],
 	"category": "turret",
