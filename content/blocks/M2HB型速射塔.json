@@ -7,10 +7,10 @@
 		   "targetAir":true,
      "targetGround":true,
 	 "shootSound":"M2HB"
-     "rotatespeed":3,
+     "rotatespeed":5,
 	 "range":200,
 	 "recoil": 2,
-	 "reload":6,
+	 "reload":10,
 	 "inaccuracy": 5,
 	 "shots": 1,
 	 
