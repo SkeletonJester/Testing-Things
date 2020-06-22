@@ -21,8 +21,8 @@
        "冷冻弹": {
 	   "type": "MissileBulletType"
 	    "trailColor":"AFEEEE"
-	   "speed": 3
-     "damage": 0
+	   "speed": 5
+     "damage": 15
 	 "lifetime": 240,
      "bulletWidth": 10
      "bulletHeight": 15
@@ -41,7 +41,7 @@
 
        "爆破弹": {
 	   "type": "MissileBulletType"
-	   "speed": 3
+	   "speed": 5
      "damage": 0
 	 	 "lifetime": 240,
      "bulletWidth": 10
@@ -54,13 +54,13 @@
 	 	 "homingPower":1,
 		"homingRange":100,
 "splashDamageRadius":1,
-	   "splashDamage":5,
+	   "splashDamage":25,
 }
 
        "碎裂弹": {
 	   "type": "MissileBulletType"
-	   "speed": 3
-     "damage": 0
+	   "speed": 5
+     "damage": 15
 	 "lifetime": 240,
      "bulletWidth": 10
      "bulletHeight": 15
@@ -75,12 +75,12 @@
 				"type":"MissileBulletType",
 				"speed": 3
 				"lifetime": 120,
-				"damage": 2,
+				"damage": 5,
 				"bulletWidth": 5,
 				"bulletHeight": 10,
 				"homingPower": 1,
 				"homingRange": 50,
-				"splashDamage": 1,
+				"splashDamage": 5,
 				"splashDamageRadius": 10,
 				}
  }
@@ -88,8 +88,8 @@
        "硬直弹": {
 	   "type": "MissileBulletType"
 	   "trailColor":"BEBEBE"
-	   "speed": 3
-     "damage": 0
+	   "speed": 5
+     "damage": 30
      "bulletWidth": 10
      "bulletHeight": 15
 	 "homingPower":1,
@@ -102,8 +102,8 @@
      "splashDamageRadius":31,
 	 "splashDamage":5,
 	 "knockback":100.0 ,
-	 "lightining":3,
-		"lightningLength":5,
+	 "lightining":15,
+		"lightningLength":10,
 	 
 	 }
  }
