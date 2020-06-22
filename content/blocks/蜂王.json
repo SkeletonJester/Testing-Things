@@ -1,11 +1,7 @@
 { 
      "type":"BurstTurret",
      "name":"Bee King", 
-     "description":"The super large missile turret, which shoots a large range of explosive ammunition at a slow speed, has an imprecise muzzle, and its fragment missile will track any enemy on the map no matter how far away it disappears
-Explosive mixture: fragment-0
-Bomb: fragment-10
-Fragment: fragment-15
-Hard straight bullet: fragment-8 ",
+     "description":"The super large missile turret, which shoots a large range of explosive ammunition at a slow speed, has an imprecise muzzle, and its fragment missile will track any enemy on the map no matter how far away it disappears",
      "health":3250,
 	     "size":4,
 		 "heatColor":"turretHeat",
