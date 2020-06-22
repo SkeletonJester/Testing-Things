@@ -17,7 +17,7 @@ Hard straight bullet: fragment-8 ",
      "rotatespeed":5,
 	 "range":500,
 	 "recoil": 2,
-	 "reload":380,
+	 "reload":200,
 	 "inaccuracy": 20,
 	 "shots": 1,
 	 "ammo": {
@@ -25,7 +25,7 @@ Hard straight bullet: fragment-8 ",
 	   "type": "MissileBulletType"
 	    "trailColor":"8B0000"
 		"hitEffect":"commandSend",
-	   "speed": 4
+	   "speed": 2
      "damage": 150
 	 "lifetime": 240,
      "bulletWidth": 20
