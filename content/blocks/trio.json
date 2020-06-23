@@ -1,0 +1,40 @@
+{
+	"type": "ItemTurret",
+	"name": "Trio",
+	"description": "Upgraded version of Duo, with an extra barrel for increased firepower!"
+	
+	"size": 1,
+	"health": 250,
+	"reload": 20,
+	"xRand": 3,
+	"range": 110,
+	"shootSound" : "shoot",
+	"ammoUseEffect": "shellEjectSmall",
+	"lifetime": 4,
+	"inaccuracy": 2,
+    "shots": 3,
+	"rotatespeed": 10,
+	
+	"ammo": {
+		"copper": "standardCopper",
+		"graphite": "standardDense",
+		"pyratite": "standardIncendiary",
+		"silicon": "standardHoming",
+        "石英": {
+            "speed": 3
+            "bulletWidth": 11
+            "damage": 11
+            "bulletHeight": 11
+            "shootEffect": "shootBig"
+            "smokeEffect": "shootSmallSmoke"
+            "ammoMultiplier": 2,
+                    },
+		},
+		
+	"requirements": [
+		{ "item": "copper", "amount": 35 },
+		{ "item": "lead", "amount": 15 },
+	],
+	"category": "turret",
+	"research": "duo"
+}
