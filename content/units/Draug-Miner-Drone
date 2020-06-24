@@ -1,0 +1,7 @@
+"name": "Draug Miner Drone",
+	"toMine":[
+		"copper",
+		"lead",
+		"石英",
+	],
+}
