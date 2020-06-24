@@ -1,5 +1,17 @@
-"toMine":[
-		"copper",
-		"lead",
+draug = new UnitType("draug"){{
+            flying = true;
+            drag = 0.05f;
+            speed = 2f;
+            range = 50f;
+            accel = 0.2f;
+            health = 80;
+            mineSpeed = 0.9f;
+            engineSize = 1.8f;
+            engineOffset = 5.7f;
+            drillTier = 1;
+	    toMine:[
+	    	copper,
+		lead,
 		"石英",
 	]
+        }};
